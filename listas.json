@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "listas": [
+    {
+      "id": "tdtchannels",
+      "nombre": "TDTChannels",
+      "formato": "tdtchannels",
+      "url": "https://www.tdtchannels.com/lists/tv.json",
+      "web": "https://www.tdtchannels.com"
+    },
+    {
+      "id": "iptvorg",
+      "nombre": "iptv-org (España)",
+      "formato": "m3u",
+      "url": "https://iptv-org.github.io/iptv/countries/es.m3u",
+      "web": "https://github.com/iptv-org/iptv"
+    }
+  ],
+  "excluir": [
+    "Antena 3",
+    "laSexta",
+    "Neox",
+    "Nova",
+    "Mega",
+    "Atreseries",
+    "Telecinco",
+    "Cuatro",
+    "FDF",
+    "Factoría de Ficción",
+    "Divinity",
+    "Energy",
+    "Be Mad",
+    "Boing"
+  ]
+}

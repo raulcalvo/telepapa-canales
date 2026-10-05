@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TelePapa · Listas de canales</title>
+  <meta name="description" content="Listas públicas de canales que usa la app TelePapa para Android y Android TV.">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<main>
+  <h1>TelePapa</h1>
+  <p class="suave">Visor de televisión sencillo para Android y Android TV, pensado para que cualquier persona pueda ver los canales públicos con el mando o desde el móvil.</p>
+
+  <h2>Qué es y qué no es</h2>
+  <p>TelePapa <strong>no aloja, emite ni retransmite ningún canal</strong>. Es un reproductor: muestra las emisiones públicas que recogen listas abiertas mantenidas por terceros, o las direcciones que añade el propio usuario. No tiene cuentas, publicidad ni recogida de datos.</p>
+
+  <h2>Listas que usa la app</h2>
+  <p>La app lee el fichero <a href="listas.json">listas.json</a> de esta web para saber qué listas cargar. Ahora mismo son estas dos:</p>
+  <div class="caja">
+    <strong>TDTChannels</strong><br>
+    Canales de la TDT española con emisión pública en internet, recopilados por la comunidad.<br>
+    Web: <a href="https://www.tdtchannels.com">tdtchannels.com</a> · Código y licencia: <a href="https://github.com/LaQuay/TDTChannels">github.com/LaQuay/TDTChannels</a><br>
+    <span class="suave">La app solo usa las emisiones directas de esta lista; no incluye enlaces a webs de cadenas.</span>
+  </div>
+  <div class="caja">
+    <strong>iptv-org (España)</strong><br>
+    Recopilación de emisiones públicas de todo el mundo; TelePapa usa solo la de España.<br>
+    Repositorio y licencia: <a href="https://github.com/iptv-org/iptv">github.com/iptv-org/iptv</a>
+  </div>
+  <p>Algunos canales se excluyen expresamente de la app aunque aparezcan en esas listas (campo <code>excluir</code> de <a href="listas.json">listas.json</a>).</p>
+
+  <h2>Guía de programación</h2>
+  <p>La programación se obtiene de guías XMLTV públicas (<a href="https://epgshare01.online">epgshare01</a> y TDTChannels).</p>
+
+  <h2>Añadir un canal desde otra app o web</h2>
+  <p>Cualquiera puede ofrecer un enlace para añadir <strong>un</strong> canal a TelePapa. La app siempre muestra el canal y pide confirmación antes de guardarlo:</p>
+  <p><code>telepapa://anadir?v=1&amp;nombre=Nombre%20del%20canal&amp;url=https%3A%2F%2Fejemplo.com%2Fcanal.m3u8&amp;logo=https%3A%2F%2Fejemplo.com%2Flogo.png</code></p>
+  <ul>
+    <li><code>nombre</code>: nombre visible del canal.</li>
+    <li><code>url</code>: dirección de la emisión (http/https) o de otra app que sepa abrirla.</li>
+    <li><code>logo</code>: opcional, imagen https.</li>
+  </ul>
+  <p class="suave">No se admiten listas completas por enlace.</p>
+
+  <h2>Retirada de contenidos y contacto</h2>
+  <p>Si eres titular de derechos y quieres que un canal deje de aparecer en la app, abre una incidencia en <a href="https://github.com/raulcalvo/telepapa-canales/issues">github.com/raulcalvo/telepapa-canales/issues</a> y lo añadiremos a la lista de exclusión. Para retirarlo de las listas de origen, contacta también con sus responsables.</p>
+
+  <p><a href="privacidad.html">Política de privacidad</a></p>
+  <footer>TelePapa es un proyecto personal sin ánimo de lucro.</footer>
+</main>
+</body>
+</html>
