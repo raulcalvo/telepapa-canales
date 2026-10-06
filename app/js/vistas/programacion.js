@@ -14,7 +14,9 @@ export const titulo = 'Programación';
 let scrollGuardado = null;
 
 export function pintar(contenedor) {
-  const filtro = almacen.preferencia('programacion.filtro', FAVORITOS);
+  // Sin favoritos, se empieza por todos los canales para que la parrilla no salga vacía
+  const porDefecto = almacen.obtener().favoritos.length ? FAVORITOS : TODOS;
+  const filtro = almacen.preferencia('programacion.filtro', porDefecto);
   const opciones = [[FAVORITOS, 'Favoritos'], [TODOS, 'Todos'], ...datos.grupos().map((g) => [g, g])];
 
   const base = filtro === FAVORITOS ? almacen.obtener().favoritos : datos.todosLosCanales();
