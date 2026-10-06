@@ -14,6 +14,10 @@ const path = require("path");
 const DIAS = 7;
 const API = "https://api.football-data.org/v4/matches";
 
+function https(u) {
+  return typeof u === "string" && u.startsWith("https://") ? u : null;
+}
+
 async function main() {
   const token = (process.env.FOOTBALL_DATA_TOKEN || "").trim();
   if (!token) {
@@ -58,6 +62,11 @@ async function main() {
       inicio,
       local,
       visitante,
+      localId: (m.homeTeam && m.homeTeam.id) || null,
+      visitanteId: (m.awayTeam && m.awayTeam.id) || null,
+      // Dirección del escudo que da football-data.org (no se copian imágenes a esta web)
+      escudoLocal: https((m.homeTeam && m.homeTeam.crest) || ""),
+      escudoVisitante: https((m.awayTeam && m.awayTeam.crest) || ""),
       jornada: m.matchday || null,
       estado: m.status || "",
     });

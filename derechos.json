@@ -1,6 +1,11 @@
 {
   "version": 1,
   "nota": "Qué plataforma oficial tiene en España los derechos de cada competición. Datos públicos mantenidos a mano; revisar al empezar cada temporada.",
+  "escudos": {
+    "activos": true,
+    "nota": "Escudos de equipos de football-data.org. 'activos': false los oculta en todas las apps; 'retirados' oculta los de equipos concretos (id de football-data.org o nombre exacto).",
+    "retirados": []
+  },
   "plataformas": {
     "dazn": {
       "nombre": "DAZN",
@@ -18,15 +23,28 @@
       "codigo": "PD",
       "nombre": "LaLiga",
       "deporte": "Fútbol",
-      "alias": ["LaLiga", "LaLiga EA Sports", "Primera División"],
-      "plataformas": ["dazn", "movistarplus"]
+      "alias": [
+        "LaLiga",
+        "LaLiga EA Sports",
+        "Primera División"
+      ],
+      "plataformas": [
+        "dazn",
+        "movistarplus"
+      ]
     },
     {
       "codigo": "CL",
       "nombre": "Champions League",
       "deporte": "Fútbol",
-      "alias": ["Champions League", "Liga de Campeones", "UEFA Champions League"],
-      "plataformas": ["movistarplus"]
+      "alias": [
+        "Champions League",
+        "Liga de Campeones",
+        "UEFA Champions League"
+      ],
+      "plataformas": [
+        "movistarplus"
+      ]
     }
   ]
 }
