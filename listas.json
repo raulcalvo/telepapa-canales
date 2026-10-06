@@ -307,5 +307,17 @@
   ],
   "contacto": {
     "correo": "raulcalvo@gmail.com"
+  },
+  "guiaComplementaria": {
+    "activa": true,
+    "url": "https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz",
+    "canales": [
+      "Antena 3",
+      "laSexta",
+      "Neox",
+      "Nova",
+      "Mega",
+      "Atreseries"
+    ]
   }
 }
