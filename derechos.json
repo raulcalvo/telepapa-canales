@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "nota": "Qué plataforma oficial tiene en España los derechos de cada competición. Datos públicos mantenidos a mano; revisar al empezar cada temporada.",
+  "plataformas": {
+    "dazn": {
+      "nombre": "DAZN",
+      "web": "https://www.dazn.com/es-ES/",
+      "android": "com.dazn"
+    },
+    "movistarplus": {
+      "nombre": "Movistar Plus+",
+      "web": "https://ver.movistarplus.es/",
+      "android": "es.plus.yomvi"
+    }
+  },
+  "competiciones": [
+    {
+      "codigo": "PD",
+      "nombre": "LaLiga",
+      "deporte": "Fútbol",
+      "alias": ["LaLiga", "LaLiga EA Sports", "Primera División"],
+      "plataformas": ["dazn", "movistarplus"]
+    },
+    {
+      "codigo": "CL",
+      "nombre": "Champions League",
+      "deporte": "Fútbol",
+      "alias": ["Champions League", "Liga de Campeones", "UEFA Champions League"],
+      "plataformas": ["movistarplus"]
+    }
+  ]
+}
