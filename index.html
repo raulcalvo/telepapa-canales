@@ -16,22 +16,18 @@
   <p>TelePapa <strong>no aloja, emite ni retransmite ningún canal</strong>. Es un reproductor: muestra las emisiones públicas que recogen listas abiertas mantenidas por terceros, o las direcciones que añade el propio usuario. No tiene cuentas, publicidad ni recogida de datos.</p>
 
   <h2>Listas que usa la app</h2>
-  <p>La app lee el fichero <a href="listas.json">listas.json</a> de esta web para saber qué listas cargar. Ahora mismo son estas dos:</p>
+  <p>La app lee el fichero <a href="listas.json">listas.json</a> de esta web para saber qué listas cargar. Ahora mismo es esta:</p>
   <div class="caja">
     <strong>TDTChannels</strong><br>
     Canales de la TDT española con emisión pública en internet, recopilados por la comunidad.<br>
     Web: <a href="https://www.tdtchannels.com">tdtchannels.com</a> · Código y licencia: <a href="https://github.com/LaQuay/TDTChannels">github.com/LaQuay/TDTChannels</a><br>
     <span class="suave">La app solo usa las emisiones directas de esta lista; no incluye enlaces a webs de cadenas.</span>
   </div>
-  <div class="caja">
-    <strong>iptv-org (España)</strong><br>
-    Recopilación de emisiones públicas de todo el mundo; TelePapa usa solo la de España.<br>
-    Repositorio y licencia: <a href="https://github.com/iptv-org/iptv">github.com/iptv-org/iptv</a>
-  </div>
-  <p>Algunos canales se excluyen expresamente de la app aunque aparezcan en esas listas (campo <code>excluir</code> de <a href="listas.json">listas.json</a>).</p>
+  <p>La app solo reproduce emisiones de los servidores oficiales de las cadenas (campo <code>dominios</code> de <a href="listas.json">listas.json</a>) y excluye expresamente algunos canales (campo <code>excluir</code>).</p>
 
   <h2>Guía de programación</h2>
-  <p>La programación se obtiene de guías XMLTV públicas (<a href="https://epgshare01.online">epgshare01</a> y TDTChannels).</p>
+  <p>La programación y la agenda deportiva se obtienen de la guía XMLTV pública de TDTChannels.</p>
+  <p>La agenda añade el calendario de algunas competiciones de pago, de <a href="https://www.football-data.org">football-data.org</a>, con un enlace a la web o la app oficial de la plataforma que tiene sus derechos (<a href="derechos.json">derechos.json</a>). TelePapa no reproduce esas emisiones.</p>
 
   <h2>Añadir un canal desde otra app o web</h2>
   <p>Cualquiera puede ofrecer un enlace para añadir <strong>un</strong> canal a TelePapa. La app siempre muestra el canal y pide confirmación antes de guardarlo:</p>
@@ -45,9 +41,12 @@
 
   <h2>Retirada de contenidos y contacto</h2>
   <p>Si eres titular de derechos y quieres que un canal deje de aparecer en la app, abre una incidencia en <a href="https://github.com/raulcalvo/telepapa-canales/issues">github.com/raulcalvo/telepapa-canales/issues</a> y lo añadiremos a la lista de exclusión. Para retirarlo de las listas de origen, contacta también con sus responsables.</p>
+  <p>Los nombres y escudos de equipos, competiciones y plataformas pertenecen a sus titulares y se muestran solo para identificarlos; TelePapa no tiene relación con ellos. Si eres titular y quieres que se retire alguno, lo quitaremos de todas las apps sin necesidad de actualizarlas.</p>
+  <p hidden>Correo de contacto: <a data-correo href="#"></a></p>
 
   <p><a href="privacidad.html">Política de privacidad</a></p>
   <footer>TelePapa es un proyecto personal sin ánimo de lucro.</footer>
 </main>
+<script src="contacto.js"></script>
 </body>
 </html>
