@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https: data:; media-src 'self' https: blob:; connect-src 'self' https:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'none'; frame-src 'none'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="Canales de televisión en abierto, guía de programación y agenda deportiva.">
+  <meta name="theme-color" content="#1a237e">
+  <title>TelePapa</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="32x32" href="iconos/favicon-32.png">
+  <link rel="apple-touch-icon" href="iconos/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/app.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <header class="cabecera">
+    <img class="cabecera-icono" src="iconos/icono-192.png" alt="" width="32" height="32">
+    <h1 id="titulo-seccion">TelePapa</h1>
+  </header>
+
+  <main id="contenido" class="contenido" tabindex="-1">
+    <p class="cargando">Cargando…</p>
+  </main>
+
+  <nav class="navegacion" aria-label="Secciones">
+    <a href="#favoritos" data-seccion="favoritos"><span class="icono" data-icono="estrella"></span>Favoritos</a>
+    <a href="#programacion" data-seccion="programacion"><span class="icono" data-icono="guia"></span>Programación</a>
+    <a href="#canales" data-seccion="canales"><span class="icono" data-icono="tele"></span>Canales</a>
+    <a href="#agenda" data-seccion="agenda"><span class="icono" data-icono="calendario"></span>Agenda</a>
+    <a href="#ajustes" data-seccion="ajustes"><span class="icono" data-icono="ajustes"></span>Ajustes</a>
+  </nav>
+
+  <div id="avisos" class="avisos" role="status" aria-live="polite"></div>
+
+  <noscript><p class="noscript">TelePapa necesita JavaScript para funcionar.</p></noscript>
+</body>
+</html>

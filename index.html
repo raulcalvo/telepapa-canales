@@ -11,6 +11,7 @@
 <main>
   <h1>TelePapa</h1>
   <p class="suave">Visor de televisión sencillo para Android y Android TV, pensado para que cualquier persona pueda ver los canales públicos con el mando o desde el móvil.</p>
+  <p><a href="app/"><strong>Abrir TelePapa en el navegador</strong></a> · funciona en móvil, tablet y ordenador, y se puede instalar como una app.</p>
 
   <h2>Qué es y qué no es</h2>
   <p>TelePapa <strong>no aloja, emite ni retransmite ningún canal</strong>. Es un reproductor: muestra las emisiones públicas que recogen listas abiertas mantenidas por terceros, o las direcciones que añade el propio usuario. No tiene cuentas, publicidad ni recogida de datos.</p>
@@ -38,6 +39,9 @@
     <li><code>logo</code>: opcional, imagen https.</li>
   </ul>
   <p class="suave">No se admiten listas completas por enlace.</p>
+  <p>En la versión web el enlace es una dirección https; los datos van detrás de <code>#</code> y no llegan a ningún servidor:</p>
+  <p><code>https://raulcalvo.github.io/telepapa-canales/app/#anadir?nombre=Nombre%20del%20canal&amp;url=https%3A%2F%2Fejemplo.com%2Fcanal.m3u8</code></p>
+  <p class="suave">Varios canales a la vez: <code>#anadir-varios?canales=[{"n":"Nombre","u":"dirección","l":"logo"}]</code>. Como en la app, siempre se pide confirmación.</p>
 
   <h2>Retirada de contenidos y contacto</h2>
   <p>Si eres titular de derechos y quieres que un canal deje de aparecer en la app, abre una incidencia en <a href="https://github.com/raulcalvo/telepapa-canales/issues">github.com/raulcalvo/telepapa-canales/issues</a> y lo añadiremos a la lista de exclusión. Para retirarlo de las listas de origen, contacta también con sus responsables.</p>

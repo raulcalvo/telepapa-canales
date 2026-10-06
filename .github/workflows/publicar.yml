@@ -1,0 +1,58 @@
+name: Publicar web
+
+# Publica la web en GitHub Pages junto con los datos de la app web (datos/), que se generan aquí
+# y no se guardan en el repositorio. Requiere Settings > Pages > Source: "GitHub Actions".
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Cada 4 horas, para refrescar la guía de programación
+    - cron: '41 */4 * * *'
+  workflow_run:
+    workflows: ['Actualizar partidos']
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Comprobar el núcleo de la app
+        run: node --test tools/test/*.test.mjs
+
+      - name: Generar datos de la app web
+        run: node tools/datos.mjs datos
+
+      - name: Preparar la web
+        run: |
+          mkdir -p _sitio
+          rsync -a --exclude '.git' --exclude '.github' --exclude '_sitio' --exclude 'tools' ./ _sitio/
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _sitio
+
+      - id: despliegue
+        uses: actions/deploy-pages@v4
