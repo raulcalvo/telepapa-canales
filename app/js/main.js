@@ -4,6 +4,7 @@ import * as almacen from './almacen.js';
 import * as datos from './datos.js';
 import * as reproductor from './reproductor.js';
 import { leerEnlace } from './enlaces.js';
+import { esEmision } from './nucleo/texto.js';
 import { avisar, dialogo, el, logoCanal, pintarIconos } from './ui.js';
 import { motivoCanalNoValido } from './vistas/ajustes.js';
 import * as ajustes from './vistas/ajustes.js';
@@ -58,7 +59,14 @@ async function procesarEnlace(hash) {
     return true;
   }
   const lista = el('ul', { class: 'lista' },
-    validos.slice(0, 50).map((c) => el('li', { class: 'fila-canal' }, logoCanal(c), el('div', { class: 'datos-canal' }, el('div', { class: 'nombre-canal' }, c.nombre)))),
+    validos.slice(0, 50).map((c) =>
+      el('li', { class: 'fila-canal' }, logoCanal(c),
+        el('div', { class: 'datos-canal' },
+          el('div', { class: 'nombre-canal' }, c.nombre),
+          esEmision(c.url) ? null : el('span', { class: 'etiqueta-enlace' }, 'Se abre con otra app'),
+        ),
+      ),
+    ),
   );
   const contenidoDialogo = el('div', {},
     el('p', {}, enlace.sincronizar
