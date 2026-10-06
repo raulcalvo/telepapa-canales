@@ -1,5 +1,5 @@
 import { combinarConCalendario, eventosDesdeGuia, fechaDe, iniciales, leerDerechos } from '../nucleo/agenda.js';
-import { paraBuscar } from '../nucleo/texto.js';
+import { esEmision, paraBuscar } from '../nucleo/texto.js';
 import * as almacen from '../almacen.js';
 import * as datos from '../datos.js';
 import * as reproductor from '../reproductor.js';
@@ -24,7 +24,8 @@ function eventos() {
   const vistos = new Set();
   const entradas = [];
   for (const c of [...almacen.obtener().favoritos, ...canales]) {
-    if (vistos.has(c.id)) continue;
+    // Solo canales que se reproducen en la propia app: los enlaces que abren otra app no se asocian a eventos
+    if (vistos.has(c.id) || !esEmision(c.url)) continue;
     vistos.add(c.id);
     const programas = datos.programas(c);
     if (programas) entradas.push({ canal: c, programas });
