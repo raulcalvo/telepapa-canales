@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": 1791380213932,
+ "actualizado": 1791414696151,
  "fuente": "football-data.org",
  "fuenteWeb": "https://www.football-data.org",
  "partidos": [
@@ -173,6 +173,20 @@
    "estado": "TIMED"
   },
   {
+   "id": "fd_575346",
+   "codigo": "CL",
+   "competicion": "Champions League",
+   "inicio": 1791918000000,
+   "local": "Arsenal",
+   "visitante": "Lille",
+   "localId": 57,
+   "visitanteId": 521,
+   "escudoLocal": "https://crests.football-data.org/57.png",
+   "escudoVisitante": "https://crests.football-data.org/521.png",
+   "jornada": 2,
+   "estado": "TIMED"
+  },
+  {
    "id": "fd_575348",
    "codigo": "CL",
    "competicion": "Champions League",
@@ -201,16 +215,16 @@
    "estado": "TIMED"
   },
   {
-   "id": "fd_575346",
+   "id": "fd_575347",
    "codigo": "CL",
    "competicion": "Champions League",
    "inicio": 1791918000000,
-   "local": "Arsenal",
-   "visitante": "Lille",
-   "localId": 57,
-   "visitanteId": 521,
-   "escudoLocal": "https://crests.football-data.org/57.png",
-   "escudoVisitante": "https://crests.football-data.org/521.png",
+   "local": "Viking",
+   "visitante": "Bayern",
+   "localId": 5720,
+   "visitanteId": 5,
+   "escudoLocal": "https://crests.football-data.org/5720.png",
+   "escudoVisitante": "https://crests.football-data.org/5.png",
    "jornada": 2,
    "estado": "TIMED"
   },
@@ -253,20 +267,6 @@
    "visitanteId": 66,
    "escudoLocal": "https://crests.football-data.org/78.png",
    "escudoVisitante": "https://crests.football-data.org/66.png",
-   "jornada": 2,
-   "estado": "TIMED"
-  },
-  {
-   "id": "fd_575347",
-   "codigo": "CL",
-   "competicion": "Champions League",
-   "inicio": 1791918000000,
-   "local": "Viking",
-   "visitante": "Bayern",
-   "localId": 5720,
-   "visitanteId": 5,
-   "escudoLocal": "https://crests.football-data.org/5720.png",
-   "escudoVisitante": "https://crests.football-data.org/5.png",
    "jornada": 2,
    "estado": "TIMED"
   }
