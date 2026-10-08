@@ -10,13 +10,25 @@
 <body>
 <main>
   <h1>Política de privacidad</h1>
-  <p class="suave">App TelePapa (com.raulcalvo.telepapa.app) para Android y Android TV · Última actualización: 6 de octubre de 2026</p>
+  <p class="suave">App TelePapa (com.raulcalvo.telepapa.app) para Android y Android TV · Última actualización: 8 de octubre de 2026</p>
 
   <h2>Resumen</h2>
-  <p>TelePapa no pide cuentas, no muestra publicidad y no recoge, vende ni comparte datos personales. No usa servicios de analítica ni de seguimiento.</p>
+  <p>TelePapa no pide cuentas, no muestra publicidad y no vende ni comparte datos personales. Solo si lo aceptas, la app envía estadísticas de uso anónimas e informes de errores para mejorarla (ver «Estadísticas e informes de errores»).</p>
 
   <h2>Qué se guarda y dónde</h2>
   <p>Tus favoritos, los canales que añades y tus ajustes se guardan solo en tu dispositivo. Si emparejas el móvil con la tele, esos mismos datos se copian directamente entre los dos dispositivos por tu red Wi-Fi local, sin pasar por ningún servidor. Para reconocer al otro dispositivo se guarda un identificador aleatorio y una clave generada al emparejar, que no permiten identificarte.</p>
+  <h2>Modo padre</h2>
+  <p>El modo padre es opcional y solo se activa si lo vinculas tú: permite elegir desde un móvil los canales que se ven en otra tele, aunque esté en otra casa. Para eso, la lista de canales elegidos y el nombre que le pones a esa tele se guardan en Google Cloud Firestore (Firebase), en un documento cuyo identificador es una clave aleatoria que genera la tele y solo aparece en su código QR. No se guarda ningún otro dato ni se usan cuentas. Si no usas el modo padre, la app no se conecta a Firestore.</p>
+  <p>Al eliminar la tele desde el móvil, su documento se vacía. Firebase puede registrar datos técnicos de las conexiones (como la dirección IP) según la <a href="https://firebase.google.com/support/privacy">información de privacidad de Firebase</a>.</p>
+
+  <h2>Estadísticas e informes de errores</h2>
+  <p>La primera vez que abres la app te pregunta si puedes ayudar a mejorarla. Solo si aceptas, envía a Google Firebase:</p>
+  <ul>
+    <li><strong>Estadísticas de uso</strong> (Google Analytics para Firebase): qué canales de las listas públicas se ven y cuáles fallan al reproducirse (nombre del canal, su servidor y el tipo de error), si usas la app en el móvil o en la tele, y datos técnicos del dispositivo (modelo, versión de Android y de la app, idioma y país aproximado). De los canales que añades tú no se envía el nombre ni la dirección.</li>
+    <li><strong>Informes de errores</strong> (Firebase Crashlytics): cuando la app se cierra por un fallo, el detalle técnico del error, el modelo del dispositivo y la versión de Android y de la app.</li>
+  </ul>
+  <p>Estos datos se asocian a un identificador aleatorio de instalación de Firebase, no a tu nombre ni a una cuenta. No se usa el identificador de publicidad ni se emplean para anuncios. Google los trata como encargado del tratamiento según la <a href="https://firebase.google.com/support/privacy">información de privacidad de Firebase</a>. Puedes cambiar tu decisión cuando quieras en Ajustes de la app; si no aceptas, no se envía nada de esto.</p>
+
   <p>Al desinstalar la app se borra todo. En la tele puedes olvidar los móviles emparejados desde «Emparejar móvil», y en el móvil puedes olvidar una tele desde Ajustes.</p>
 
   <h2>Conexiones que hace la app</h2>
@@ -24,6 +36,8 @@
     <li>Descarga la configuración y las listas públicas de canales (esta web y TDTChannels), la guía de programación de TDTChannels (y, para los pocos canales que no están en ella, la guía comunitaria de epgshare01) y el calendario de partidos publicado en esta web.</li>
     <li>Al ver un canal, se conecta al servidor de esa emisión y descarga su logo. Esos servidores son de terceros y pueden registrar tu dirección IP como cualquier web.</li>
     <li>Con la tele emparejada, el móvil y la tele hablan entre sí dentro de tu red local.</li>
+    <li>Solo con el modo padre, el móvil y la tele se conectan a Google Cloud Firestore para enviar y recibir la lista de canales de esa tele.</li>
+    <li>Solo si lo aceptas, envía estadísticas de uso e informes de errores a Google Firebase.</li>
   </ul>
 
   <h2>Versión web</h2>
@@ -39,7 +53,7 @@
   </ul>
 
   <h2>Menores</h2>
-  <p>La app no está dirigida específicamente a menores y no recoge datos de nadie.</p>
+  <p>La app no está dirigida específicamente a menores y no recoge datos personales que identifiquen a nadie.</p>
 
   <h2>Contacto</h2>
   <p>Para cualquier duda sobre privacidad, abre una incidencia en <a href="https://github.com/raulcalvo/telepapa-canales/issues">github.com/raulcalvo/telepapa-canales/issues</a>.</p>
