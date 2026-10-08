@@ -28,7 +28,8 @@ async function main() {
   const salida = path.resolve(process.argv[2] || path.join(raiz, "partidos.json"));
   const derechos = JSON.parse(fs.readFileSync(path.join(raiz, "derechos.json"), "utf-8"));
   const competiciones = new Map();
-  for (const c of derechos.competiciones || []) if (c.codigo) competiciones.set(c.codigo, c);
+  // Las competiciones con "calendario" son de motor (tools/motor.js), no de football-data.org
+  for (const c of derechos.competiciones || []) if (c.codigo && !c.calendario) competiciones.set(c.codigo, c);
   if (competiciones.size === 0) {
     console.log("derechos.json no tiene competiciones con código.");
     return;

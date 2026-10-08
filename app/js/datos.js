@@ -1,5 +1,5 @@
 // Datos públicos que lee la app desde esta misma web: configuración (listas.json), canales y guía
-// preparados por tools/datos.mjs, derechos.json y partidos.json.
+// preparados por tools/datos.mjs, derechos.json, partidos.json y motor.json.
 
 import { programasDe } from './nucleo/guia.js';
 import { esCorreo } from './nucleo/texto.js';
@@ -11,6 +11,7 @@ const RUTAS = {
   guia: '../datos/guia.json',
   derechos: '../derechos.json',
   partidos: '../partidos.json',
+  motor: '../motor.json',
 };
 
 const datos = {
@@ -19,6 +20,7 @@ const datos = {
   guia: null,
   derechos: null,
   partidos: null,
+  motor: null,
   errores: [],
 };
 

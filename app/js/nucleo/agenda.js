@@ -1,6 +1,6 @@
 // Agenda deportiva: retransmisiones sacadas de la guía de programación de los canales en abierto,
-// más los partidos del calendario (partidos.json) con las plataformas que tienen sus derechos
-// (derechos.json). Sin dependencias del navegador.
+// más los partidos (partidos.json) y las carreras de motor (motor.json) del calendario con las
+// plataformas que tienen sus derechos (derechos.json). Sin dependencias del navegador.
 
 import { sinAcentos } from './texto.js';
 
@@ -274,9 +274,10 @@ function anadirPlataformas(ev, plataformas) {
 /**
  * Añade las plataformas de pago: los eventos de la guía cuya competición tiene derechos las reciben,
  * y cada partido del calendario se fusiona con su evento de la guía (misma hora ±30 min y mismos
- * equipos) o se añade como evento nuevo sin canales en abierto.
+ * equipos) o se añade como evento nuevo sin canales en abierto. Las carreras de motor se fusionan
+ * con la emisión de la guía de su competición a la misma hora (±30 min) o se añaden igual.
  */
-export function combinarConCalendario(eventos, derechos, partidosJson) {
+export function combinarConCalendario(eventos, derechos, partidosJson, motorJson) {
   const r = [...eventos];
   if (!derechos) return r;
   for (const ev of eventos) {
@@ -310,6 +311,29 @@ export function combinarConCalendario(eventos, derechos, partidosJson) {
       escudoLocal: escLocal,
       escudoVisitante: escVisit,
       estado: estadoDe(p.estado),
+      canales: [],
+      plataformas: [...c.plataformas],
+    });
+  }
+  for (const m of motorJson?.eventos || []) {
+    if (!m || !m.inicio || !m.titulo) continue;
+    const c = buscarCompeticion(derechos, m.codigo, m.competicion);
+    if (!c) continue;
+    const igual = eventos.find(
+      (ev) => Math.abs(ev.inicio - m.inicio) <= MARGEN_FUSION && buscarCompeticion(derechos, null, ev.competicion) === c,
+    );
+    if (igual) continue; // ya tiene las plataformas de su competición
+    const duracion = Math.min(Math.max(Number(m.duracion) || 60, 15), 300) * 60000;
+    r.push({
+      id: String(m.id || `m${m.inicio}`),
+      inicio: m.inicio,
+      fin: m.inicio + duracion,
+      fecha: fechaDe(m.inicio),
+      hora: horaDe(m.inicio),
+      titulo: String(m.titulo),
+      deporte: c.deporte || 'Automovilismo',
+      competicion: c.nombre || m.competicion,
+      estado: 'PENDIENTE',
       canales: [],
       plataformas: [...c.plataformas],
     });

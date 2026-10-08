@@ -1,0 +1,188 @@
+{
+ "version": 1,
+ "actualizado": 1791498234595,
+ "fuente": "F1 Calendar",
+ "fuenteWeb": "https://www.f1calendar.com",
+ "eventos": [
+  {
+   "id": "mt_f1_2026_17_sprintQualifying",
+   "codigo": "F1",
+   "competicion": "Fórmula 1",
+   "inicio": 1791549000000,
+   "duracion": 45,
+   "titulo": "GP de Singapur · Clasificación al sprint",
+   "provisional": false
+  },
+  {
+   "id": "mt_motogp_2026_17_qualifying1",
+   "codigo": "MOTOGP",
+   "competicion": "MotoGP",
+   "inicio": 1791600600000,
+   "duracion": 45,
+   "titulo": "GP de Indonesia · Clasificación",
+   "provisional": false
+  },
+  {
+   "id": "mt_motogp_2026_17_sprint",
+   "codigo": "MOTOGP",
+   "competicion": "MotoGP",
+   "inicio": 1791615600000,
+   "duracion": 45,
+   "titulo": "GP de Indonesia · Sprint",
+   "provisional": false
+  },
+  {
+   "id": "mt_f1_2026_17_sprint",
+   "codigo": "F1",
+   "competicion": "Fórmula 1",
+   "inicio": 1791622800000,
+   "duracion": 45,
+   "titulo": "GP de Singapur · Sprint",
+   "provisional": false
+  },
+  {
+   "id": "mt_f1_2026_17_qualifying",
+   "codigo": "F1",
+   "competicion": "Fórmula 1",
+   "inicio": 1791637200000,
+   "duracion": 60,
+   "titulo": "GP de Singapur · Clasificación",
+   "provisional": false
+  },
+  {
+   "id": "mt_motogp_2026_17_race",
+   "codigo": "MOTOGP",
+   "competicion": "MotoGP",
+   "inicio": 1791702000000,
+   "duracion": 60,
+   "titulo": "GP de Indonesia · Carrera",
+   "provisional": false
+  },
+  {
+   "id": "mt_f1_2026_17_gp",
+   "codigo": "F1",
+   "competicion": "Fórmula 1",
+   "inicio": 1791720000000,
+   "duracion": 120,
+   "titulo": "GP de Singapur · Carrera",
+   "provisional": false
+  },
+  {
+   "id": "mt_motogp_2026_18_qualifying1",
+   "codigo": "MOTOGP",
+   "competicion": "MotoGP",
+   "inicio": 1792799400000,
+   "duracion": 45,
+   "titulo": "GP de Australia · Clasificación",
+   "provisional": false
+  },
+  {
+   "id": "mt_motogp_2026_18_sprint",
+   "codigo": "MOTOGP",
+   "competicion": "MotoGP",
+   "inicio": 1792814400000,
+   "duracion": 45,
+   "titulo": "GP de Australia · Sprint",
+   "provisional": false
+  },
+  {
+   "id": "mt_f1_2026_18_qualifying",
+   "codigo": "F1",
+   "competicion": "Fórmula 1",
+   "inicio": 1792875600000,
+   "duracion": 60,
+   "titulo": "GP de los Estados Unidos · Clasificación",
+   "provisional": false
+  },
+  {
+   "id": "mt_motogp_2026_18_race",
+   "codigo": "MOTOGP",
+   "competicion": "MotoGP",
+   "inicio": 1792897200000,
+   "duracion": 60,
+   "titulo": "GP de Australia · Carrera",
+   "provisional": false
+  },
+  {
+   "id": "mt_f1_2026_18_gp",
+   "codigo": "F1",
+   "competicion": "Fórmula 1",
+   "inicio": 1792958400000,
+   "duracion": 120,
+   "titulo": "GP de los Estados Unidos · Carrera",
+   "provisional": false
+  },
+  {
+   "id": "mt_motogp_2026_19_qualifying1",
+   "codigo": "MOTOGP",
+   "competicion": "MotoGP",
+   "inicio": 1793415000000,
+   "duracion": 45,
+   "titulo": "GP de Malasia · Clasificación",
+   "provisional": false
+  },
+  {
+   "id": "mt_motogp_2026_19_sprint",
+   "codigo": "MOTOGP",
+   "competicion": "MotoGP",
+   "inicio": 1793430000000,
+   "duracion": 45,
+   "titulo": "GP de Malasia · Sprint",
+   "provisional": false
+  },
+  {
+   "id": "mt_f1_2026_19_qualifying",
+   "codigo": "F1",
+   "competicion": "Fórmula 1",
+   "inicio": 1793480400000,
+   "duracion": 60,
+   "titulo": "GP de México · Clasificación",
+   "provisional": false
+  },
+  {
+   "id": "mt_motogp_2026_19_race",
+   "codigo": "MOTOGP",
+   "competicion": "MotoGP",
+   "inicio": 1793516400000,
+   "duracion": 60,
+   "titulo": "GP de Malasia · Carrera",
+   "provisional": false
+  },
+  {
+   "id": "mt_f1_2026_19_gp",
+   "codigo": "F1",
+   "competicion": "Fórmula 1",
+   "inicio": 1793563200000,
+   "duracion": 120,
+   "titulo": "GP de México · Carrera",
+   "provisional": false
+  },
+  {
+   "id": "mt_motogp_2026_20_qualifying1",
+   "codigo": "MOTOGP",
+   "competicion": "MotoGP",
+   "inicio": 1794055200000,
+   "duracion": 45,
+   "titulo": "GP de Catar · Clasificación",
+   "provisional": false
+  },
+  {
+   "id": "mt_motogp_2026_20_sprint",
+   "codigo": "MOTOGP",
+   "competicion": "MotoGP",
+   "inicio": 1794070800000,
+   "duracion": 45,
+   "titulo": "GP de Catar · Sprint",
+   "provisional": false
+  },
+  {
+   "id": "mt_f1_2026_20_qualifying",
+   "codigo": "F1",
+   "competicion": "Fórmula 1",
+   "inicio": 1794074400000,
+   "duracion": 60,
+   "titulo": "GP de Brasil · Clasificación",
+   "provisional": false
+  }
+ ]
+}

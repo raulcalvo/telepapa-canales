@@ -10,7 +10,7 @@ export function textoLegal() {
   const correo = datos.correoContacto();
   return [
     'Los nombres y escudos de equipos, competiciones y plataformas pertenecen a sus titulares y se muestran solo para identificarlos. TelePapa no tiene relación con ellos.',
-    `Calendario de fútbol: football-data.org. Guía de programación: ${guia}. Las emisiones son las oficiales de cada cadena y llegan directamente desde sus servidores.`,
+    `Calendario de fútbol: football-data.org. Calendario de motor: F1 Calendar. Guía de programación: ${guia}. Las emisiones son las oficiales de cada cadena y llegan directamente desde sus servidores.`,
     correo
       ? `Si eres titular y quieres que se retire algún contenido, escribe a ${correo}.`
       : 'Si eres titular y quieres que se retire algún contenido, usa el contacto de la web.',
