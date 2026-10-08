@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": 1791498489842,
+ "actualizado": 1791498745385,
  "fuente": "football-data.org",
  "fuenteWeb": "https://www.football-data.org",
  "partidos": [
@@ -173,6 +173,20 @@
    "estado": "TIMED"
   },
   {
+   "id": "fd_575345",
+   "codigo": "CL",
+   "competicion": "Champions League",
+   "inicio": 1791918000000,
+   "local": "Atleti",
+   "visitante": "Man United",
+   "localId": 78,
+   "visitanteId": 66,
+   "escudoLocal": "https://crests.football-data.org/78.png",
+   "escudoVisitante": "https://crests.football-data.org/66.png",
+   "jornada": 2,
+   "estado": "TIMED"
+  },
+  {
    "id": "fd_575347",
    "codigo": "CL",
    "competicion": "Champions League",
@@ -215,16 +229,16 @@
    "estado": "TIMED"
   },
   {
-   "id": "fd_575345",
+   "id": "fd_575346",
    "codigo": "CL",
    "competicion": "Champions League",
    "inicio": 1791918000000,
-   "local": "Atleti",
-   "visitante": "Man United",
-   "localId": 78,
-   "visitanteId": 66,
-   "escudoLocal": "https://crests.football-data.org/78.png",
-   "escudoVisitante": "https://crests.football-data.org/66.png",
+   "local": "Arsenal",
+   "visitante": "Lille",
+   "localId": 57,
+   "visitanteId": 521,
+   "escudoLocal": "https://crests.football-data.org/57.png",
+   "escudoVisitante": "https://crests.football-data.org/521.png",
    "jornada": 2,
    "estado": "TIMED"
   },
@@ -257,20 +271,6 @@
    "estado": "TIMED"
   },
   {
-   "id": "fd_575346",
-   "codigo": "CL",
-   "competicion": "Champions League",
-   "inicio": 1791918000000,
-   "local": "Arsenal",
-   "visitante": "Lille",
-   "localId": 57,
-   "visitanteId": 521,
-   "escudoLocal": "https://crests.football-data.org/57.png",
-   "escudoVisitante": "https://crests.football-data.org/521.png",
-   "jornada": 2,
-   "estado": "TIMED"
-  },
-  {
    "id": "fd_575351",
    "codigo": "CL",
    "competicion": "Champions League",
@@ -295,6 +295,20 @@
    "visitanteId": 64,
    "escudoLocal": "https://crests.football-data.org/2016.png",
    "escudoVisitante": "https://crests.football-data.org/64.png",
+   "jornada": 2,
+   "estado": "TIMED"
+  },
+  {
+   "id": "fd_575355",
+   "codigo": "CL",
+   "competicion": "Champions League",
+   "inicio": 1792004400000,
+   "local": "Aston Villa",
+   "visitante": "Fenerbahçe",
+   "localId": 58,
+   "visitanteId": 613,
+   "escudoLocal": "https://crests.football-data.org/58.png",
+   "escudoVisitante": "https://crests.football-data.org/613.png",
    "jornada": 2,
    "estado": "TIMED"
   },
@@ -327,16 +341,16 @@
    "estado": "TIMED"
   },
   {
-   "id": "fd_575355",
+   "id": "fd_575356",
    "codigo": "CL",
    "competicion": "Champions League",
    "inicio": 1792004400000,
-   "local": "Aston Villa",
-   "visitante": "Fenerbahçe",
-   "localId": 58,
-   "visitanteId": 613,
-   "escudoLocal": "https://crests.football-data.org/58.png",
-   "escudoVisitante": "https://crests.football-data.org/613.png",
+   "local": "Real Betis",
+   "visitante": "Porto",
+   "localId": 90,
+   "visitanteId": 503,
+   "escudoLocal": "https://crests.football-data.org/90.png",
+   "escudoVisitante": "https://crests.football-data.org/503.png",
    "jornada": 2,
    "estado": "TIMED"
   },
@@ -379,20 +393,6 @@
    "visitanteId": 4,
    "escudoLocal": "https://crests.football-data.org/5721.png",
    "escudoVisitante": "https://crests.football-data.org/4.png",
-   "jornada": 2,
-   "estado": "TIMED"
-  },
-  {
-   "id": "fd_575356",
-   "codigo": "CL",
-   "competicion": "Champions League",
-   "inicio": 1792004400000,
-   "local": "Real Betis",
-   "visitante": "Porto",
-   "localId": 90,
-   "visitanteId": 503,
-   "escudoLocal": "https://crests.football-data.org/90.png",
-   "escudoVisitante": "https://crests.football-data.org/503.png",
    "jornada": 2,
    "estado": "TIMED"
   }
