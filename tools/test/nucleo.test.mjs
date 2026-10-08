@@ -156,6 +156,32 @@ test('agenda desde la guía con plataformas y partidos', () => {
   assert.deepEqual(r[1].canales, []);
 });
 
+test('agenda con las carreras de motor', () => {
+  const inicio = Date.UTC(2026, 9, 11, 12, 0, 0);
+  const derechos = leerDerechos({
+    plataformas: { p1: { nombre: 'Plataforma', web: 'https://plataforma.example/' } },
+    competiciones: [
+      { codigo: 'MOTOGP', nombre: 'MotoGP', deporte: 'Motociclismo', alias: ['Moto GP'], plataformas: ['p1'], calendario: { serie: 'motogp', sesiones: ['race'] } },
+    ],
+  });
+  const guia = [{ id: 'g', inicio, fin: inicio + 60 * MIN, titulo: 'GP de Indonesia', competicion: 'Moto GP', deporte: 'Motociclismo', canales: ['a'], plataformas: [] }];
+  const motor = {
+    eventos: [
+      { id: 'mt_1', codigo: 'MOTOGP', inicio: inicio + 5 * MIN, duracion: 60, titulo: 'GP de Indonesia · Carrera' },
+      { id: 'mt_2', codigo: 'MOTOGP', inicio: inicio - 5 * 3600000, duracion: 45, titulo: 'GP de Indonesia · Sprint' },
+      { id: 'mt_3', codigo: 'XX', inicio, titulo: 'Otra' },
+    ],
+  };
+  const r = combinarConCalendario(guia, derechos, null, motor);
+  assert.equal(r.length, 2, 'la carrera se fusiona con la emisión de la guía');
+  assert.equal(r[0].id, 'mt_2');
+  assert.equal(r[0].deporte, 'Motociclismo');
+  assert.equal(r[0].hora, '09:00');
+  assert.equal(r[0].fin - r[0].inicio, 45 * MIN);
+  assert.deepEqual(r[0].plataformas.map((p) => p.id), ['p1']);
+  assert.deepEqual(r[1].plataformas.map((p) => p.id), ['p1']);
+});
+
 test('iniciales de equipos', () => {
   assert.equal(iniciales('Real Madrid'), 'RM');
   assert.equal(iniciales('Getafe CF'), 'GE');

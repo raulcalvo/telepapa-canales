@@ -19,7 +19,7 @@ export const titulo = 'Agenda';
 function eventos() {
   const d = datos.obtener();
   const canales = datos.todosLosCanales();
-  const clave = [d.guia?.generado, d.partidos?.actualizado, d.derechos?.version, canales.length, almacen.obtener().favoritos.length].join('|');
+  const clave = [d.guia?.generado, d.partidos?.actualizado, d.motor?.actualizado, d.derechos?.version, canales.length, almacen.obtener().favoritos.length].join('|');
   if (cache.clave === clave) return cache.eventos;
   const vistos = new Set();
   const entradas = [];
@@ -30,7 +30,7 @@ function eventos() {
     const programas = datos.programas(c);
     if (programas) entradas.push({ canal: c, programas });
   }
-  const lista = combinarConCalendario(eventosDesdeGuia(entradas), leerDerechos(d.derechos), d.partidos);
+  const lista = combinarConCalendario(eventosDesdeGuia(entradas), leerDerechos(d.derechos), d.partidos, d.motor);
   cache = { clave, eventos: lista };
   return lista;
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "nota": "Qué plataforma oficial tiene en España los derechos de cada competición. Datos públicos mantenidos a mano; revisar al empezar cada temporada.",
+  "nota": "Qué plataforma oficial tiene en España los derechos de cada competición. Datos públicos mantenidos a mano; revisar al empezar cada temporada. Las que tienen 'calendario' son de motor: tools/motor.js genera motor.json con las sesiones indicadas de los calendarios abiertos de F1 Calendar (serie = carpeta de https://github.com/sportstimes/f1/tree/main/_db).",
   "escudos": {
     "activos": true,
     "nota": "Escudos de equipos de football-data.org. 'activos': false los oculta en todas las apps; 'retirados' oculta los de equipos concretos (id de football-data.org o nombre exacto).",
@@ -45,6 +45,52 @@
       "plataformas": [
         "movistarplus"
       ]
+    },
+    {
+      "codigo": "F1",
+      "nombre": "Fórmula 1",
+      "deporte": "Automovilismo",
+      "alias": [
+        "Fórmula 1",
+        "Formula 1",
+        "F1",
+        "Mundial de Fórmula 1",
+        "Campeonato del Mundo de Fórmula 1"
+      ],
+      "plataformas": [
+        "dazn"
+      ],
+      "calendario": {
+        "serie": "f1",
+        "sesiones": [
+          "sprintQualifying",
+          "qualifying",
+          "sprint",
+          "gp"
+        ]
+      }
+    },
+    {
+      "codigo": "MOTOGP",
+      "nombre": "MotoGP",
+      "deporte": "Motociclismo",
+      "alias": [
+        "MotoGP",
+        "Moto GP",
+        "Mundial de MotoGP",
+        "Campeonato del Mundo de MotoGP"
+      ],
+      "plataformas": [
+        "dazn"
+      ],
+      "calendario": {
+        "serie": "motogp",
+        "sesiones": [
+          "qualifying1",
+          "sprint",
+          "race"
+        ]
+      }
     }
   ]
 }
