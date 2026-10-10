@@ -1,18 +1,9 @@
 {
  "version": 1,
- "actualizado": 1791585899970,
+ "actualizado": 1791636232259,
  "fuente": "F1 Calendar",
  "fuenteWeb": "https://www.f1calendar.com",
  "eventos": [
-  {
-   "id": "mt_f1_2026_17_sprintQualifying",
-   "codigo": "F1",
-   "competicion": "Fórmula 1",
-   "inicio": 1791549000000,
-   "duracion": 45,
-   "titulo": "GP de Singapur · Clasificación al sprint",
-   "provisional": false
-  },
   {
    "id": "mt_motogp_2026_17_qualifying1",
    "codigo": "MOTOGP",
