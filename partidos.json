@@ -1,23 +1,9 @@
 {
  "version": 1,
- "actualizado": 1791585899395,
+ "actualizado": 1791612166259,
  "fuente": "football-data.org",
  "fuenteWeb": "https://www.football-data.org",
  "partidos": [
-  {
-   "id": "fd_564706",
-   "codigo": "PD",
-   "competicion": "LaLiga",
-   "inicio": 1791572400000,
-   "local": "Málaga",
-   "visitante": "Espanyol",
-   "localId": 84,
-   "visitanteId": 80,
-   "escudoLocal": "https://crests.football-data.org/84.png",
-   "escudoVisitante": "https://crests.football-data.org/80.png",
-   "jornada": 8,
-   "estado": "FINISHED"
-  },
   {
    "id": "fd_564698",
    "codigo": "PD",
@@ -173,6 +159,20 @@
    "estado": "TIMED"
   },
   {
+   "id": "fd_575347",
+   "codigo": "CL",
+   "competicion": "Champions League",
+   "inicio": 1791918000000,
+   "local": "Viking",
+   "visitante": "Bayern",
+   "localId": 5720,
+   "visitanteId": 5,
+   "escudoLocal": "https://crests.football-data.org/5720.png",
+   "escudoVisitante": "https://crests.football-data.org/5.png",
+   "jornada": 2,
+   "estado": "TIMED"
+  },
+  {
    "id": "fd_575343",
    "codigo": "CL",
    "competicion": "Champions League",
@@ -211,20 +211,6 @@
    "visitanteId": 66,
    "escudoLocal": "https://crests.football-data.org/78.png",
    "escudoVisitante": "https://crests.football-data.org/66.png",
-   "jornada": 2,
-   "estado": "TIMED"
-  },
-  {
-   "id": "fd_575347",
-   "codigo": "CL",
-   "competicion": "Champions League",
-   "inicio": 1791918000000,
-   "local": "Viking",
-   "visitante": "Bayern",
-   "localId": 5720,
-   "visitanteId": 5,
-   "escudoLocal": "https://crests.football-data.org/5720.png",
-   "escudoVisitante": "https://crests.football-data.org/5.png",
    "jornada": 2,
    "estado": "TIMED"
   },
@@ -299,6 +285,20 @@
    "estado": "TIMED"
   },
   {
+   "id": "fd_575357",
+   "codigo": "CL",
+   "competicion": "Champions League",
+   "inicio": 1792004400000,
+   "local": "Shaktar",
+   "visitante": "PAE AEK",
+   "localId": 1887,
+   "visitanteId": 1899,
+   "escudoLocal": "https://crests.football-data.org/1887.png",
+   "escudoVisitante": "https://crests.football-data.org/1899.png",
+   "jornada": 2,
+   "estado": "TIMED"
+  },
+  {
    "id": "fd_575353",
    "codigo": "CL",
    "competicion": "Champions League",
@@ -327,16 +327,16 @@
    "estado": "TIMED"
   },
   {
-   "id": "fd_575357",
+   "id": "fd_575352",
    "codigo": "CL",
    "competicion": "Champions League",
    "inicio": 1792004400000,
-   "local": "Shaktar",
-   "visitante": "PAE AEK",
-   "localId": 1887,
-   "visitanteId": 1899,
-   "escudoLocal": "https://crests.football-data.org/1887.png",
-   "escudoVisitante": "https://crests.football-data.org/1899.png",
+   "local": "Roma",
+   "visitante": "Real Madrid",
+   "localId": 100,
+   "visitanteId": 86,
+   "escudoLocal": "https://crests.football-data.org/100.png",
+   "escudoVisitante": "https://crests.football-data.org/86.png",
    "jornada": 2,
    "estado": "TIMED"
   },
@@ -383,17 +383,17 @@
    "estado": "TIMED"
   },
   {
-   "id": "fd_575352",
-   "codigo": "CL",
-   "competicion": "Champions League",
-   "inicio": 1792004400000,
-   "local": "Roma",
-   "visitante": "Real Madrid",
-   "localId": 100,
-   "visitanteId": 86,
-   "escudoLocal": "https://crests.football-data.org/100.png",
-   "escudoVisitante": "https://crests.football-data.org/86.png",
-   "jornada": 2,
+   "id": "fd_564716",
+   "codigo": "PD",
+   "competicion": "LaLiga",
+   "inicio": 1792177200000,
+   "local": "Deportivo",
+   "visitante": "Levante",
+   "localId": 560,
+   "visitanteId": 88,
+   "escudoLocal": "https://crests.football-data.org/560.png",
+   "escudoVisitante": "https://crests.football-data.org/88.png",
+   "jornada": 9,
    "estado": "TIMED"
   }
  ]
