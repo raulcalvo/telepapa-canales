@@ -1,51 +1,9 @@
 {
  "version": 1,
- "actualizado": 1791669122904,
+ "actualizado": 1791723969842,
  "fuente": "football-data.org",
  "fuenteWeb": "https://www.football-data.org",
  "partidos": [
-  {
-   "id": "fd_564699",
-   "codigo": "PD",
-   "competicion": "LaLiga",
-   "inicio": 1791641700000,
-   "local": "Alavés",
-   "visitante": "Atleti",
-   "localId": 263,
-   "visitanteId": 78,
-   "escudoLocal": "https://crests.football-data.org/263.png",
-   "escudoVisitante": "https://crests.football-data.org/78.png",
-   "jornada": 8,
-   "estado": "FINISHED"
-  },
-  {
-   "id": "fd_564700",
-   "codigo": "PD",
-   "competicion": "LaLiga",
-   "inicio": 1791649800000,
-   "local": "Barça",
-   "visitante": "Getafe",
-   "localId": 81,
-   "visitanteId": 82,
-   "escudoLocal": "https://crests.football-data.org/81.png",
-   "escudoVisitante": "https://crests.football-data.org/82.png",
-   "jornada": 8,
-   "estado": "FINISHED"
-  },
-  {
-   "id": "fd_564702",
-   "codigo": "PD",
-   "competicion": "LaLiga",
-   "inicio": 1791658800000,
-   "local": "Real Madrid",
-   "visitante": "Villarreal",
-   "localId": 86,
-   "visitanteId": 94,
-   "escudoLocal": "https://crests.football-data.org/86.png",
-   "escudoVisitante": "https://crests.football-data.org/94.png",
-   "jornada": 8,
-   "estado": "FINISHED"
-  },
   {
    "id": "fd_564703",
    "codigo": "PD",
@@ -58,7 +16,7 @@
    "escudoLocal": "https://crests.football-data.org/285.png",
    "escudoVisitante": "https://crests.football-data.org/558.png",
    "jornada": 8,
-   "estado": "TIMED"
+   "estado": "IN_PLAY"
   },
   {
    "id": "fd_564707",
@@ -145,6 +103,20 @@
    "estado": "TIMED"
   },
   {
+   "id": "fd_575347",
+   "codigo": "CL",
+   "competicion": "Champions League",
+   "inicio": 1791918000000,
+   "local": "Viking",
+   "visitante": "Bayern",
+   "localId": 5720,
+   "visitanteId": 5,
+   "escudoLocal": "https://crests.football-data.org/5720.png",
+   "escudoVisitante": "https://crests.football-data.org/5.png",
+   "jornada": 2,
+   "estado": "TIMED"
+  },
+  {
    "id": "fd_575343",
    "codigo": "CL",
    "competicion": "Champions League",
@@ -183,20 +155,6 @@
    "visitanteId": 66,
    "escudoLocal": "https://crests.football-data.org/78.png",
    "escudoVisitante": "https://crests.football-data.org/66.png",
-   "jornada": 2,
-   "estado": "TIMED"
-  },
-  {
-   "id": "fd_575347",
-   "codigo": "CL",
-   "competicion": "Champions League",
-   "inicio": 1791918000000,
-   "local": "Viking",
-   "visitante": "Bayern",
-   "localId": 5720,
-   "visitanteId": 5,
-   "escudoLocal": "https://crests.football-data.org/5720.png",
-   "escudoVisitante": "https://crests.football-data.org/5.png",
    "jornada": 2,
    "estado": "TIMED"
   },
@@ -379,6 +337,62 @@
    "visitanteId": 88,
    "escudoLocal": "https://crests.football-data.org/560.png",
    "escudoVisitante": "https://crests.football-data.org/88.png",
+   "jornada": 9,
+   "estado": "TIMED"
+  },
+  {
+   "id": "fd_564710",
+   "codigo": "PD",
+   "competicion": "LaLiga",
+   "inicio": 1792238400000,
+   "local": "Espanyol",
+   "visitante": "Atleti",
+   "localId": 80,
+   "visitanteId": 78,
+   "escudoLocal": "https://crests.football-data.org/80.png",
+   "escudoVisitante": "https://crests.football-data.org/78.png",
+   "jornada": 9,
+   "estado": "TIMED"
+  },
+  {
+   "id": "fd_564708",
+   "codigo": "PD",
+   "competicion": "LaLiga",
+   "inicio": 1792246500000,
+   "local": "Villarreal",
+   "visitante": "Elche",
+   "localId": 94,
+   "visitanteId": 285,
+   "escudoLocal": "https://crests.football-data.org/94.png",
+   "escudoVisitante": "https://crests.football-data.org/285.png",
+   "jornada": 9,
+   "estado": "TIMED"
+  },
+  {
+   "id": "fd_564713",
+   "codigo": "PD",
+   "competicion": "LaLiga",
+   "inicio": 1792254600000,
+   "local": "Real Betis",
+   "visitante": "Barça",
+   "localId": 90,
+   "visitanteId": 81,
+   "escudoLocal": "https://crests.football-data.org/90.png",
+   "escudoVisitante": "https://crests.football-data.org/81.png",
+   "jornada": 9,
+   "estado": "TIMED"
+  },
+  {
+   "id": "fd_564711",
+   "codigo": "PD",
+   "competicion": "LaLiga",
+   "inicio": 1792263600000,
+   "local": "Valencia",
+   "visitante": "Athletic",
+   "localId": 95,
+   "visitanteId": 77,
+   "escudoLocal": "https://crests.football-data.org/95.png",
+   "escudoVisitante": "https://crests.football-data.org/77.png",
    "jornada": 9,
    "estado": "TIMED"
   }
