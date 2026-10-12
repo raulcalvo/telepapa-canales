@@ -1,27 +1,9 @@
 {
  "version": 1,
- "actualizado": 1791723970435,
+ "actualizado": 1791819868666,
  "fuente": "F1 Calendar",
  "fuenteWeb": "https://www.f1calendar.com",
  "eventos": [
-  {
-   "id": "mt_motogp_2026_17_race",
-   "codigo": "MOTOGP",
-   "competicion": "MotoGP",
-   "inicio": 1791702000000,
-   "duracion": 60,
-   "titulo": "GP de Indonesia · Carrera",
-   "provisional": false
-  },
-  {
-   "id": "mt_f1_2026_17_gp",
-   "codigo": "F1",
-   "competicion": "Fórmula 1",
-   "inicio": 1791720000000,
-   "duracion": 120,
-   "titulo": "GP de Singapur · Carrera",
-   "provisional": false
-  },
   {
    "id": "mt_motogp_2026_18_qualifying1",
    "codigo": "MOTOGP",
