@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": 1792064607903,
+ "actualizado": 1792084246564,
  "fuente": "football-data.org",
  "fuenteWeb": "https://www.football-data.org",
  "partidos": [
@@ -355,20 +355,6 @@
    "estado": "TIMED"
   },
   {
-   "id": "fd_575372",
-   "codigo": "CL",
-   "competicion": "Champions League",
-   "inicio": 1792609200000,
-   "local": "Bayern",
-   "visitante": "Arsenal",
-   "localId": 5,
-   "visitanteId": 57,
-   "escudoLocal": "https://crests.football-data.org/5.png",
-   "escudoVisitante": "https://crests.football-data.org/57.png",
-   "jornada": 3,
-   "estado": "TIMED"
-  },
-  {
    "id": "fd_575374",
    "codigo": "CL",
    "competicion": "Champions League",
@@ -407,6 +393,20 @@
    "visitanteId": 675,
    "escudoLocal": "https://crests.football-data.org/90.png",
    "escudoVisitante": "https://crests.football-data.org/675.png",
+   "jornada": 3,
+   "estado": "TIMED"
+  },
+  {
+   "id": "fd_575372",
+   "codigo": "CL",
+   "competicion": "Champions League",
+   "inicio": 1792609200000,
+   "local": "Bayern",
+   "visitante": "Arsenal",
+   "localId": 5,
+   "visitanteId": 57,
+   "escudoLocal": "https://crests.football-data.org/5.png",
+   "escudoVisitante": "https://crests.football-data.org/57.png",
    "jornada": 3,
    "estado": "TIMED"
   }
