@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": 1792169228469,
+ "actualizado": 1792185745697,
  "fuente": "football-data.org",
  "fuenteWeb": "https://www.football-data.org",
  "partidos": [
@@ -16,7 +16,7 @@
    "escudoLocal": "https://crests.football-data.org/560.png",
    "escudoVisitante": "https://crests.football-data.org/88.png",
    "jornada": 9,
-   "estado": "TIMED"
+   "estado": "FINISHED"
   },
   {
    "id": "fd_564710",
@@ -215,6 +215,20 @@
    "estado": "TIMED"
   },
   {
+   "id": "fd_575365",
+   "codigo": "CL",
+   "competicion": "Champions League",
+   "inicio": 1792522800000,
+   "local": "Porto",
+   "visitante": "PSV",
+   "localId": 503,
+   "visitanteId": 674,
+   "escudoLocal": "https://crests.football-data.org/503.png",
+   "escudoVisitante": "https://crests.football-data.org/674.png",
+   "jornada": 3,
+   "estado": "TIMED"
+  },
+  {
    "id": "fd_575361",
    "codigo": "CL",
    "competicion": "Champions League",
@@ -253,20 +267,6 @@
    "visitanteId": 94,
    "escudoLocal": "https://crests.football-data.org/64.png",
    "escudoVisitante": "https://crests.football-data.org/94.png",
-   "jornada": 3,
-   "estado": "TIMED"
-  },
-  {
-   "id": "fd_575365",
-   "codigo": "CL",
-   "competicion": "Champions League",
-   "inicio": 1792522800000,
-   "local": "Porto",
-   "visitante": "PSV",
-   "localId": 503,
-   "visitanteId": 674,
-   "escudoLocal": "https://crests.football-data.org/503.png",
-   "escudoVisitante": "https://crests.football-data.org/674.png",
    "jornada": 3,
    "estado": "TIMED"
   },
