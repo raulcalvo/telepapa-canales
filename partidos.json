@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": 1792234638222,
+ "actualizado": 1792251815302,
  "fuente": "football-data.org",
  "fuenteWeb": "https://www.football-data.org",
  "partidos": [
@@ -16,7 +16,7 @@
    "escudoLocal": "https://crests.football-data.org/80.png",
    "escudoVisitante": "https://crests.football-data.org/78.png",
    "jornada": 9,
-   "estado": "TIMED"
+   "estado": "FINISHED"
   },
   {
    "id": "fd_564708",
@@ -30,7 +30,7 @@
    "escudoLocal": "https://crests.football-data.org/94.png",
    "escudoVisitante": "https://crests.football-data.org/285.png",
    "jornada": 9,
-   "estado": "TIMED"
+   "estado": "IN_PLAY"
   },
   {
    "id": "fd_564713",
@@ -159,6 +159,20 @@
    "estado": "TIMED"
   },
   {
+   "id": "fd_575363",
+   "codigo": "CL",
+   "competicion": "Champions League",
+   "inicio": 1792522800000,
+   "local": "Liverpool",
+   "visitante": "Villarreal",
+   "localId": 64,
+   "visitanteId": 94,
+   "escudoLocal": "https://crests.football-data.org/64.png",
+   "escudoVisitante": "https://crests.football-data.org/94.png",
+   "jornada": 3,
+   "estado": "TIMED"
+  },
+  {
    "id": "fd_575365",
    "codigo": "CL",
    "competicion": "Champions League",
@@ -201,16 +215,16 @@
    "estado": "TIMED"
   },
   {
-   "id": "fd_575363",
+   "id": "fd_575364",
    "codigo": "CL",
    "competicion": "Champions League",
    "inicio": 1792522800000,
-   "local": "Liverpool",
-   "visitante": "Villarreal",
-   "localId": 64,
-   "visitanteId": 94,
-   "escudoLocal": "https://crests.football-data.org/64.png",
-   "escudoVisitante": "https://crests.football-data.org/94.png",
+   "local": "Roma",
+   "visitante": "Sl. Bratislava",
+   "localId": 100,
+   "visitanteId": 7509,
+   "escudoLocal": "https://crests.football-data.org/100.png",
+   "escudoVisitante": "https://crests.football-data.org/7509.png",
    "jornada": 3,
    "estado": "TIMED"
   },
@@ -239,20 +253,6 @@
    "visitanteId": 78,
    "escudoLocal": "https://crests.football-data.org/10.png",
    "escudoVisitante": "https://crests.football-data.org/78.png",
-   "jornada": 3,
-   "estado": "TIMED"
-  },
-  {
-   "id": "fd_575364",
-   "codigo": "CL",
-   "competicion": "Champions League",
-   "inicio": 1792522800000,
-   "local": "Roma",
-   "visitante": "Sl. Bratislava",
-   "localId": 100,
-   "visitanteId": 7509,
-   "escudoLocal": "https://crests.football-data.org/100.png",
-   "escudoVisitante": "https://crests.football-data.org/7509.png",
    "jornada": 3,
    "estado": "TIMED"
   },
@@ -299,6 +299,20 @@
    "estado": "TIMED"
   },
   {
+   "id": "fd_575373",
+   "codigo": "CL",
+   "competicion": "Champions League",
+   "inicio": 1792609200000,
+   "local": "Club Brugge",
+   "visitante": "RC Lens",
+   "localId": 851,
+   "visitanteId": 546,
+   "escudoLocal": "https://crests.football-data.org/851.png",
+   "escudoVisitante": "https://crests.football-data.org/546.png",
+   "jornada": 3,
+   "estado": "TIMED"
+  },
+  {
    "id": "fd_575375",
    "codigo": "CL",
    "competicion": "Champions League",
@@ -327,16 +341,16 @@
    "estado": "TIMED"
   },
   {
-   "id": "fd_575373",
+   "id": "fd_575374",
    "codigo": "CL",
    "competicion": "Champions League",
    "inicio": 1792609200000,
-   "local": "Club Brugge",
-   "visitante": "RC Lens",
-   "localId": 851,
-   "visitanteId": 546,
-   "escudoLocal": "https://crests.football-data.org/851.png",
-   "escudoVisitante": "https://crests.football-data.org/546.png",
+   "local": "Aston Villa",
+   "visitante": "Viking",
+   "localId": 58,
+   "visitanteId": 5720,
+   "escudoLocal": "https://crests.football-data.org/58.png",
+   "escudoVisitante": "https://crests.football-data.org/5720.png",
    "jornada": 3,
    "estado": "TIMED"
   },
@@ -379,20 +393,6 @@
    "visitanteId": 57,
    "escudoLocal": "https://crests.football-data.org/5.png",
    "escudoVisitante": "https://crests.football-data.org/57.png",
-   "jornada": 3,
-   "estado": "TIMED"
-  },
-  {
-   "id": "fd_575374",
-   "codigo": "CL",
-   "competicion": "Champions League",
-   "inicio": 1792609200000,
-   "local": "Aston Villa",
-   "visitante": "Viking",
-   "localId": 58,
-   "visitanteId": 5720,
-   "escudoLocal": "https://crests.football-data.org/58.png",
-   "escudoVisitante": "https://crests.football-data.org/5720.png",
    "jornada": 3,
    "estado": "TIMED"
   },
