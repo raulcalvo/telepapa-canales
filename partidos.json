@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": 1792497059120,
+ "actualizado": 1792516809614,
  "fuente": "football-data.org",
  "fuenteWeb": "https://www.football-data.org",
  "partidos": [
@@ -16,7 +16,7 @@
    "escudoLocal": "https://crests.football-data.org/613.png",
    "escudoVisitante": "https://crests.football-data.org/930.png",
    "jornada": 3,
-   "estado": "TIMED"
+   "estado": "IN_PLAY"
   },
   {
    "id": "fd_575359",
@@ -29,6 +29,20 @@
    "visitanteId": 4,
    "escudoLocal": "https://crests.football-data.org/10233.png",
    "escudoVisitante": "https://crests.football-data.org/4.png",
+   "jornada": 3,
+   "estado": "IN_PLAY"
+  },
+  {
+   "id": "fd_575362",
+   "codigo": "CL",
+   "competicion": "Champions League",
+   "inicio": 1792522800000,
+   "local": "Stuttgart",
+   "visitante": "Atleti",
+   "localId": 10,
+   "visitanteId": 78,
+   "escudoLocal": "https://crests.football-data.org/10.png",
+   "escudoVisitante": "https://crests.football-data.org/78.png",
    "jornada": 3,
    "estado": "TIMED"
   },
@@ -57,20 +71,6 @@
    "visitanteId": 5721,
    "escudoLocal": "https://crests.football-data.org/113.png",
    "escudoVisitante": "https://crests.football-data.org/5721.png",
-   "jornada": 3,
-   "estado": "TIMED"
-  },
-  {
-   "id": "fd_575362",
-   "codigo": "CL",
-   "competicion": "Champions League",
-   "inicio": 1792522800000,
-   "local": "Stuttgart",
-   "visitante": "Atleti",
-   "localId": 10,
-   "visitanteId": 78,
-   "escudoLocal": "https://crests.football-data.org/10.png",
-   "escudoVisitante": "https://crests.football-data.org/78.png",
    "jornada": 3,
    "estado": "TIMED"
   },
