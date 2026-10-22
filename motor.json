@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": 1792670744961,
+ "actualizado": 1792689598676,
  "fuente": "F1 Calendar",
  "fuenteWeb": "https://www.f1calendar.com",
  "eventos": [
@@ -155,6 +155,15 @@
    "inicio": 1795258200000,
    "duracion": 45,
    "titulo": "GP de Portugal · Clasificación",
+   "provisional": false
+  },
+  {
+   "id": "mt_motogp_2026_21_sprint",
+   "codigo": "MOTOGP",
+   "competicion": "MotoGP",
+   "inicio": 1795273200000,
+   "duracion": 45,
+   "titulo": "GP de Portugal · Sprint",
    "provisional": false
   }
  ]
