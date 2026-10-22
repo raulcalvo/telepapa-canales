@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": 1791819868666,
+ "actualizado": 1792645391500,
  "fuente": "F1 Calendar",
  "fuenteWeb": "https://www.f1calendar.com",
  "eventos": [
@@ -137,6 +137,15 @@
    "inicio": 1794157200000,
    "duracion": 60,
    "titulo": "GP de Catar · Carrera",
+   "provisional": false
+  },
+  {
+   "id": "mt_f1_2026_21_qualifying",
+   "codigo": "F1",
+   "competicion": "Fórmula 1",
+   "inicio": 1795233600000,
+   "duracion": 60,
+   "titulo": "GP de Las Vegas · Clasificación",
    "provisional": false
   }
  ]
