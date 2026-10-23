@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": 1792689598676,
+ "actualizado": 1792731786060,
  "fuente": "F1 Calendar",
  "fuenteWeb": "https://www.f1calendar.com",
  "eventos": [
@@ -164,6 +164,15 @@
    "inicio": 1795273200000,
    "duracion": 45,
    "titulo": "GP de Portugal · Sprint",
+   "provisional": false
+  },
+  {
+   "id": "mt_f1_2026_21_gp",
+   "codigo": "F1",
+   "competicion": "Fórmula 1",
+   "inicio": 1795320000000,
+   "duracion": 120,
+   "titulo": "GP de Las Vegas · Carrera",
    "provisional": false
   }
  ]
