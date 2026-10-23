@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": 1792731786060,
+ "actualizado": 1792775836604,
  "fuente": "F1 Calendar",
  "fuenteWeb": "https://www.f1calendar.com",
  "eventos": [
@@ -173,6 +173,15 @@
    "inicio": 1795320000000,
    "duracion": 120,
    "titulo": "GP de Las Vegas · Carrera",
+   "provisional": false
+  },
+  {
+   "id": "mt_motogp_2026_21_race",
+   "codigo": "MOTOGP",
+   "competicion": "MotoGP",
+   "inicio": 1795352400000,
+   "duracion": 60,
+   "titulo": "GP de Portugal · Carrera",
    "provisional": false
   }
  ]
