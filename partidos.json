@@ -1,23 +1,9 @@
 {
  "version": 1,
- "actualizado": 1792791048267,
+ "actualizado": 1792817274280,
  "fuente": "football-data.org",
  "fuenteWeb": "https://www.football-data.org",
  "partidos": [
-  {
-   "id": "fd_564719",
-   "codigo": "PD",
-   "competicion": "LaLiga",
-   "inicio": 1792782000000,
-   "local": "Alavés",
-   "visitante": "Málaga",
-   "localId": 263,
-   "visitanteId": 84,
-   "escudoLocal": "https://crests.football-data.org/263.png",
-   "escudoVisitante": "https://crests.football-data.org/84.png",
-   "jornada": 10,
-   "estado": "FINISHED"
-  },
   {
    "id": "fd_564718",
    "codigo": "PD",
@@ -142,6 +128,20 @@
    "escudoLocal": "https://crests.football-data.org/559.png",
    "escudoVisitante": "https://crests.football-data.org/79.png",
    "jornada": 10,
+   "estado": "TIMED"
+  },
+  {
+   "id": "fd_564737",
+   "codigo": "PD",
+   "competicion": "LaLiga",
+   "inicio": 1793390400000,
+   "local": "Villarreal",
+   "visitante": "Espanyol",
+   "localId": 94,
+   "visitanteId": 80,
+   "escudoLocal": "https://crests.football-data.org/94.png",
+   "escudoVisitante": "https://crests.football-data.org/80.png",
+   "jornada": 11,
    "estado": "TIMED"
   }
  ]
