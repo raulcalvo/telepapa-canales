@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": 1792946092435,
+ "actualizado": 1792961915351,
  "fuente": "football-data.org",
  "fuenteWeb": "https://www.football-data.org",
  "partidos": [
@@ -30,7 +30,7 @@
    "escudoLocal": "https://crests.football-data.org/558.png",
    "escudoVisitante": "https://crests.football-data.org/90.png",
    "jornada": 10,
-   "estado": "IN_PLAY"
+   "estado": "FINISHED"
   },
   {
    "id": "fd_564726",
@@ -44,7 +44,7 @@
    "escudoLocal": "https://crests.football-data.org/92.png",
    "escudoVisitante": "https://crests.football-data.org/88.png",
    "jornada": 10,
-   "estado": "TIMED"
+   "estado": "FINISHED"
   },
   {
    "id": "fd_564723",
@@ -58,7 +58,7 @@
    "escudoLocal": "https://crests.football-data.org/81.png",
    "escudoVisitante": "https://crests.football-data.org/86.png",
    "jornada": 10,
-   "estado": "TIMED"
+   "estado": "IN_PLAY"
   },
   {
    "id": "fd_564721",
