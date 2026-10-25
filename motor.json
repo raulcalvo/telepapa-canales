@@ -1,27 +1,9 @@
 {
  "version": 1,
- "actualizado": 1792775836604,
+ "actualizado": 1792904174280,
  "fuente": "F1 Calendar",
  "fuenteWeb": "https://www.f1calendar.com",
  "eventos": [
-  {
-   "id": "mt_motogp_2026_18_qualifying1",
-   "codigo": "MOTOGP",
-   "competicion": "MotoGP",
-   "inicio": 1792799400000,
-   "duracion": 45,
-   "titulo": "GP de Australia · Clasificación",
-   "provisional": false
-  },
-  {
-   "id": "mt_motogp_2026_18_sprint",
-   "codigo": "MOTOGP",
-   "competicion": "MotoGP",
-   "inicio": 1792814400000,
-   "duracion": 45,
-   "titulo": "GP de Australia · Sprint",
-   "provisional": false
-  },
   {
    "id": "mt_f1_2026_18_qualifying",
    "codigo": "F1",
