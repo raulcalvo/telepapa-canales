@@ -1,18 +1,9 @@
 {
  "version": 1,
- "actualizado": 1792990763525,
+ "actualizado": 1793054777793,
  "fuente": "F1 Calendar",
  "fuenteWeb": "https://www.f1calendar.com",
  "eventos": [
-  {
-   "id": "mt_f1_2026_18_gp",
-   "codigo": "F1",
-   "competicion": "Fórmula 1",
-   "inicio": 1792958400000,
-   "duracion": 120,
-   "titulo": "GP de los Estados Unidos · Carrera",
-   "provisional": false
-  },
   {
    "id": "mt_motogp_2026_19_qualifying1",
    "codigo": "MOTOGP",
