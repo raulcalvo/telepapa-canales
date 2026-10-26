@@ -1,27 +1,9 @@
 {
  "version": 1,
- "actualizado": 1792904174280,
+ "actualizado": 1792990763525,
  "fuente": "F1 Calendar",
  "fuenteWeb": "https://www.f1calendar.com",
  "eventos": [
-  {
-   "id": "mt_f1_2026_18_qualifying",
-   "codigo": "F1",
-   "competicion": "Fórmula 1",
-   "inicio": 1792875600000,
-   "duracion": 60,
-   "titulo": "GP de los Estados Unidos · Clasificación",
-   "provisional": false
-  },
-  {
-   "id": "mt_motogp_2026_18_race",
-   "codigo": "MOTOGP",
-   "competicion": "MotoGP",
-   "inicio": 1792897200000,
-   "duracion": 60,
-   "titulo": "GP de Australia · Carrera",
-   "provisional": false
-  },
   {
    "id": "mt_f1_2026_18_gp",
    "codigo": "F1",
