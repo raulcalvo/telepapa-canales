@@ -1,23 +1,9 @@
 {
  "version": 1,
- "actualizado": 1793054777394,
+ "actualizado": 1793078212426,
  "fuente": "football-data.org",
  "fuenteWeb": "https://www.football-data.org",
  "partidos": [
-  {
-   "id": "fd_564721",
-   "codigo": "PD",
-   "competicion": "LaLiga",
-   "inicio": 1793044800000,
-   "local": "Sevilla FC",
-   "visitante": "Osasuna",
-   "localId": 559,
-   "visitanteId": 79,
-   "escudoLocal": "https://crests.football-data.org/559.png",
-   "escudoVisitante": "https://crests.football-data.org/79.png",
-   "jornada": 10,
-   "estado": "FINISHED"
-  },
   {
    "id": "fd_564737",
    "codigo": "PD",
@@ -141,6 +127,20 @@
    "visitanteId": 92,
    "escudoLocal": "https://crests.football-data.org/77.png",
    "escudoVisitante": "https://crests.football-data.org/92.png",
+   "jornada": 11,
+   "estado": "TIMED"
+  },
+  {
+   "id": "fd_564731",
+   "codigo": "PD",
+   "competicion": "LaLiga",
+   "inicio": 1793649600000,
+   "local": "Deportivo",
+   "visitante": "Osasuna",
+   "localId": 560,
+   "visitanteId": 79,
+   "escudoLocal": "https://crests.football-data.org/560.png",
+   "escudoVisitante": "https://crests.football-data.org/79.png",
    "jornada": 11,
    "estado": "TIMED"
   }
