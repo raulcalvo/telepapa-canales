@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": 1793280009817,
+ "actualizado": 1793314309635,
  "fuente": "F1 Calendar",
  "fuenteWeb": "https://www.f1calendar.com",
  "eventos": [
@@ -146,6 +146,24 @@
    "inicio": 1795859400000,
    "duracion": 45,
    "titulo": "GP de Valencia · Clasificación",
+   "provisional": false
+  },
+  {
+   "id": "mt_motogp_2026_22_sprint",
+   "codigo": "MOTOGP",
+   "competicion": "MotoGP",
+   "inicio": 1795874400000,
+   "duracion": 45,
+   "titulo": "GP de Valencia · Sprint",
+   "provisional": false
+  },
+  {
+   "id": "mt_f1_2026_22_qualifying",
+   "codigo": "F1",
+   "competicion": "Fórmula 1",
+   "inicio": 1795888800000,
+   "duracion": 60,
+   "titulo": "GP de Catar · Clasificación",
    "provisional": false
   }
  ]
