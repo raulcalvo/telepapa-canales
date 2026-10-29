@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": 1793054777793,
+ "actualizado": 1793280009817,
  "fuente": "F1 Calendar",
  "fuenteWeb": "https://www.f1calendar.com",
  "eventos": [
@@ -137,6 +137,15 @@
    "inicio": 1795352400000,
    "duracion": 60,
    "titulo": "GP de Portugal · Carrera",
+   "provisional": false
+  },
+  {
+   "id": "mt_motogp_2026_22_qualifying1",
+   "codigo": "MOTOGP",
+   "competicion": "MotoGP",
+   "inicio": 1795859400000,
+   "duracion": 45,
+   "titulo": "GP de Valencia · Clasificación",
    "provisional": false
   }
  ]
