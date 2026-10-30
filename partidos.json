@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": 1793365890299,
+ "actualizado": 1793399372064,
  "fuente": "football-data.org",
  "fuenteWeb": "https://www.football-data.org",
  "partidos": [
@@ -16,7 +16,7 @@
    "escudoLocal": "https://crests.football-data.org/94.png",
    "escudoVisitante": "https://crests.football-data.org/80.png",
    "jornada": 11,
-   "estado": "TIMED"
+   "estado": "FINISHED"
   },
   {
    "id": "fd_564730",
@@ -173,6 +173,20 @@
    "estado": "TIMED"
   },
   {
+   "id": "fd_575383",
+   "codigo": "CL",
+   "competicion": "Champions League",
+   "inicio": 1793736000000,
+   "local": "Man United",
+   "visitante": "Roma",
+   "localId": 66,
+   "visitanteId": 100,
+   "escudoLocal": "https://crests.football-data.org/66.png",
+   "escudoVisitante": "https://crests.football-data.org/100.png",
+   "jornada": 4,
+   "estado": "TIMED"
+  },
+  {
    "id": "fd_575379",
    "codigo": "CL",
    "competicion": "Champions League",
@@ -211,20 +225,6 @@
    "visitanteId": 5,
    "escudoLocal": "https://crests.football-data.org/78.png",
    "escudoVisitante": "https://crests.football-data.org/5.png",
-   "jornada": 4,
-   "estado": "TIMED"
-  },
-  {
-   "id": "fd_575383",
-   "codigo": "CL",
-   "competicion": "Champions League",
-   "inicio": 1793736000000,
-   "local": "Man United",
-   "visitante": "Roma",
-   "localId": 66,
-   "visitanteId": 100,
-   "escudoLocal": "https://crests.football-data.org/66.png",
-   "escudoVisitante": "https://crests.football-data.org/100.png",
    "jornada": 4,
    "estado": "TIMED"
   },
@@ -341,6 +341,20 @@
    "estado": "TIMED"
   },
   {
+   "id": "fd_575388",
+   "codigo": "CL",
+   "competicion": "Champions League",
+   "inicio": 1793822400000,
+   "local": "RB Leipzig",
+   "visitante": "Man City",
+   "localId": 721,
+   "visitanteId": 65,
+   "escudoLocal": "https://crests.football-data.org/721.png",
+   "escudoVisitante": "https://crests.football-data.org/65.png",
+   "jornada": 4,
+   "estado": "TIMED"
+  },
+  {
    "id": "fd_575394",
    "codigo": "CL",
    "competicion": "Champions League",
@@ -379,20 +393,6 @@
    "visitanteId": 113,
    "escudoLocal": "https://crests.football-data.org/503.png",
    "escudoVisitante": "https://crests.football-data.org/113.png",
-   "jornada": 4,
-   "estado": "TIMED"
-  },
-  {
-   "id": "fd_575388",
-   "codigo": "CL",
-   "competicion": "Champions League",
-   "inicio": 1793822400000,
-   "local": "RB Leipzig",
-   "visitante": "Man City",
-   "localId": 721,
-   "visitanteId": 65,
-   "escudoLocal": "https://crests.football-data.org/721.png",
-   "escudoVisitante": "https://crests.football-data.org/65.png",
    "jornada": 4,
    "estado": "TIMED"
   }

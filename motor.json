@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": 1793365890797,
+ "actualizado": 1793399372577,
  "fuente": "F1 Calendar",
  "fuenteWeb": "https://www.f1calendar.com",
  "eventos": [
@@ -173,6 +173,15 @@
    "inicio": 1795957200000,
    "duracion": 60,
    "titulo": "GP de Valencia · Carrera",
+   "provisional": false
+  },
+  {
+   "id": "mt_f1_2026_22_gp",
+   "codigo": "F1",
+   "competicion": "Fórmula 1",
+   "inicio": 1795968000000,
+   "duracion": 120,
+   "titulo": "GP de Catar · Carrera",
    "provisional": false
   }
  ]
