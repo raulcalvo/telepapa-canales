@@ -1,18 +1,9 @@
 {
  "version": 1,
- "actualizado": 1793514317251,
+ "actualizado": 1793555919516,
  "fuente": "F1 Calendar",
  "fuenteWeb": "https://www.f1calendar.com",
  "eventos": [
-  {
-   "id": "mt_motogp_2026_19_sprint",
-   "codigo": "MOTOGP",
-   "competicion": "MotoGP",
-   "inicio": 1793430000000,
-   "duracion": 45,
-   "titulo": "GP de Malasia · Sprint",
-   "provisional": false
-  },
   {
    "id": "mt_f1_2026_19_qualifying",
    "codigo": "F1",
