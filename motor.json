@@ -1,27 +1,9 @@
 {
  "version": 1,
- "actualizado": 1793571099695,
+ "actualizado": 1793656061354,
  "fuente": "F1 Calendar",
  "fuenteWeb": "https://www.f1calendar.com",
  "eventos": [
-  {
-   "id": "mt_motogp_2026_19_race",
-   "codigo": "MOTOGP",
-   "competicion": "MotoGP",
-   "inicio": 1793516400000,
-   "duracion": 60,
-   "titulo": "GP de Malasia · Carrera",
-   "provisional": false
-  },
-  {
-   "id": "mt_f1_2026_19_gp",
-   "codigo": "F1",
-   "competicion": "Fórmula 1",
-   "inicio": 1793563200000,
-   "duracion": 120,
-   "titulo": "GP de México · Carrera",
-   "provisional": false
-  },
   {
    "id": "mt_motogp_2026_20_qualifying1",
    "codigo": "MOTOGP",
