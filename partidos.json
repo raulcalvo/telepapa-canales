@@ -1,23 +1,9 @@
 {
  "version": 1,
- "actualizado": 1793656060832,
+ "actualizado": 1793689147441,
  "fuente": "football-data.org",
  "fuenteWeb": "https://www.football-data.org",
  "partidos": [
-  {
-   "id": "fd_564731",
-   "codigo": "PD",
-   "competicion": "LaLiga",
-   "inicio": 1793649600000,
-   "local": "Deportivo",
-   "visitante": "Osasuna",
-   "localId": 560,
-   "visitanteId": 79,
-   "escudoLocal": "https://crests.football-data.org/560.png",
-   "escudoVisitante": "https://crests.football-data.org/79.png",
-   "jornada": 11,
-   "estado": "IN_PLAY"
-  },
   {
    "id": "fd_575378",
    "codigo": "CL",
@@ -89,20 +75,6 @@
    "estado": "TIMED"
   },
   {
-   "id": "fd_575383",
-   "codigo": "CL",
-   "competicion": "Champions League",
-   "inicio": 1793736000000,
-   "local": "Man United",
-   "visitante": "Roma",
-   "localId": 66,
-   "visitanteId": 100,
-   "escudoLocal": "https://crests.football-data.org/66.png",
-   "escudoVisitante": "https://crests.football-data.org/100.png",
-   "jornada": 4,
-   "estado": "TIMED"
-  },
-  {
    "id": "fd_575379",
    "codigo": "CL",
    "competicion": "Champions League",
@@ -141,6 +113,20 @@
    "visitanteId": 5,
    "escudoLocal": "https://crests.football-data.org/78.png",
    "escudoVisitante": "https://crests.football-data.org/5.png",
+   "jornada": 4,
+   "estado": "TIMED"
+  },
+  {
+   "id": "fd_575383",
+   "codigo": "CL",
+   "competicion": "Champions League",
+   "inicio": 1793736000000,
+   "local": "Man United",
+   "visitante": "Roma",
+   "localId": 66,
+   "visitanteId": 100,
+   "escudoLocal": "https://crests.football-data.org/66.png",
+   "escudoVisitante": "https://crests.football-data.org/100.png",
    "jornada": 4,
    "estado": "TIMED"
   },
