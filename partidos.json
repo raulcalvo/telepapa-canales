@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": 1793862015711,
+ "actualizado": 1793909187022,
  "fuente": "football-data.org",
  "fuenteWeb": "https://www.football-data.org",
  "partidos": [
@@ -103,20 +103,6 @@
    "estado": "TIMED"
   },
   {
-   "id": "fd_564742",
-   "codigo": "PD",
-   "competicion": "LaLiga",
-   "inicio": 1794159000000,
-   "local": "Celta",
-   "visitante": "Levante",
-   "localId": 558,
-   "visitanteId": 88,
-   "escudoLocal": "https://crests.football-data.org/558.png",
-   "escudoVisitante": "https://crests.football-data.org/88.png",
-   "jornada": 12,
-   "estado": "TIMED"
-  },
-  {
    "id": "fd_564747",
    "codigo": "PD",
    "competicion": "LaLiga",
@@ -127,6 +113,20 @@
    "visitanteId": 82,
    "escudoLocal": "https://crests.football-data.org/94.png",
    "escudoVisitante": "https://crests.football-data.org/82.png",
+   "jornada": 12,
+   "estado": "TIMED"
+  },
+  {
+   "id": "fd_564742",
+   "codigo": "PD",
+   "competicion": "LaLiga",
+   "inicio": 1794159000000,
+   "local": "Celta",
+   "visitante": "Levante",
+   "localId": 558,
+   "visitanteId": 88,
+   "escudoLocal": "https://crests.football-data.org/558.png",
+   "escudoVisitante": "https://crests.football-data.org/88.png",
    "jornada": 12,
    "estado": "TIMED"
   },
