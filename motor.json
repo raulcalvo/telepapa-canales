@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": 1793948397473,
+ "actualizado": 1793993555646,
  "fuente": "F1 Calendar",
  "fuenteWeb": "https://www.f1calendar.com",
  "eventos": [
@@ -146,6 +146,15 @@
    "inicio": 1796479200000,
    "duracion": 60,
    "titulo": "GP de Abu Dabi · Clasificación",
+   "provisional": false
+  },
+  {
+   "id": "mt_f1_2026_23_gp",
+   "codigo": "F1",
+   "competicion": "Fórmula 1",
+   "inicio": 1796562000000,
+   "duracion": 120,
+   "titulo": "GP de Abu Dabi · Carrera",
    "provisional": false
   }
  ]
