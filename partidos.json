@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": 1794057444694,
+ "actualizado": 1794088797024,
  "fuente": "football-data.org",
  "fuenteWeb": "https://www.football-data.org",
  "partidos": [
@@ -16,7 +16,7 @@
    "escudoLocal": "https://crests.football-data.org/84.png",
    "escudoVisitante": "https://crests.football-data.org/5335.png",
    "jornada": 12,
-   "estado": "IN_PLAY"
+   "estado": "FINISHED"
   },
   {
    "id": "fd_564745",
@@ -30,7 +30,7 @@
    "escudoLocal": "https://crests.football-data.org/80.png",
    "escudoVisitante": "https://crests.football-data.org/560.png",
    "jornada": 12,
-   "estado": "TIMED"
+   "estado": "FINISHED"
   },
   {
    "id": "fd_564739",
@@ -44,7 +44,7 @@
    "escudoLocal": "https://crests.football-data.org/79.png",
    "escudoVisitante": "https://crests.football-data.org/77.png",
    "jornada": 12,
-   "estado": "TIMED"
+   "estado": "FINISHED"
   },
   {
    "id": "fd_564741",
@@ -58,7 +58,7 @@
    "escudoLocal": "https://crests.football-data.org/95.png",
    "escudoVisitante": "https://crests.football-data.org/86.png",
    "jornada": 12,
-   "estado": "TIMED"
+   "estado": "IN_PLAY"
   },
   {
    "id": "fd_564738",
@@ -89,20 +89,6 @@
    "estado": "TIMED"
   },
   {
-   "id": "fd_564747",
-   "codigo": "PD",
-   "competicion": "LaLiga",
-   "inicio": 1794159000000,
-   "local": "Villarreal",
-   "visitante": "Getafe",
-   "localId": 94,
-   "visitanteId": 82,
-   "escudoLocal": "https://crests.football-data.org/94.png",
-   "escudoVisitante": "https://crests.football-data.org/82.png",
-   "jornada": 12,
-   "estado": "TIMED"
-  },
-  {
    "id": "fd_564742",
    "codigo": "PD",
    "competicion": "LaLiga",
@@ -113,6 +99,20 @@
    "visitanteId": 88,
    "escudoLocal": "https://crests.football-data.org/558.png",
    "escudoVisitante": "https://crests.football-data.org/88.png",
+   "jornada": 12,
+   "estado": "TIMED"
+  },
+  {
+   "id": "fd_564747",
+   "codigo": "PD",
+   "competicion": "LaLiga",
+   "inicio": 1794159000000,
+   "local": "Villarreal",
+   "visitante": "Getafe",
+   "localId": 94,
+   "visitanteId": 82,
+   "escudoLocal": "https://crests.football-data.org/94.png",
+   "escudoVisitante": "https://crests.football-data.org/82.png",
    "jornada": 12,
    "estado": "TIMED"
   },
