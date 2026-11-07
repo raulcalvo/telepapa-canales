@@ -1,23 +1,9 @@
 {
  "version": 1,
- "actualizado": 1793993555052,
+ "actualizado": 1794032029212,
  "fuente": "football-data.org",
  "fuenteWeb": "https://www.football-data.org",
  "partidos": [
-  {
-   "id": "fd_564740",
-   "codigo": "PD",
-   "competicion": "LaLiga",
-   "inicio": 1793995200000,
-   "local": "Sevilla FC",
-   "visitante": "Alavés",
-   "localId": 559,
-   "visitanteId": 263,
-   "escudoLocal": "https://crests.football-data.org/559.png",
-   "escudoVisitante": "https://crests.football-data.org/263.png",
-   "jornada": 12,
-   "estado": "TIMED"
-  },
   {
    "id": "fd_564744",
    "codigo": "PD",
