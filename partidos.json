@@ -1,65 +1,9 @@
 {
  "version": 1,
- "actualizado": 1794088797024,
+ "actualizado": 1794118743733,
  "fuente": "football-data.org",
  "fuenteWeb": "https://www.football-data.org",
  "partidos": [
-  {
-   "id": "fd_564744",
-   "codigo": "PD",
-   "competicion": "LaLiga",
-   "inicio": 1794056400000,
-   "local": "Málaga",
-   "visitante": "Santander",
-   "localId": 84,
-   "visitanteId": 5335,
-   "escudoLocal": "https://crests.football-data.org/84.png",
-   "escudoVisitante": "https://crests.football-data.org/5335.png",
-   "jornada": 12,
-   "estado": "FINISHED"
-  },
-  {
-   "id": "fd_564745",
-   "codigo": "PD",
-   "competicion": "LaLiga",
-   "inicio": 1794064500000,
-   "local": "Espanyol",
-   "visitante": "Deportivo",
-   "localId": 80,
-   "visitanteId": 560,
-   "escudoLocal": "https://crests.football-data.org/80.png",
-   "escudoVisitante": "https://crests.football-data.org/560.png",
-   "jornada": 12,
-   "estado": "FINISHED"
-  },
-  {
-   "id": "fd_564739",
-   "codigo": "PD",
-   "competicion": "LaLiga",
-   "inicio": 1794072600000,
-   "local": "Osasuna",
-   "visitante": "Athletic",
-   "localId": 79,
-   "visitanteId": 77,
-   "escudoLocal": "https://crests.football-data.org/79.png",
-   "escudoVisitante": "https://crests.football-data.org/77.png",
-   "jornada": 12,
-   "estado": "FINISHED"
-  },
-  {
-   "id": "fd_564741",
-   "codigo": "PD",
-   "competicion": "LaLiga",
-   "inicio": 1794081600000,
-   "local": "Valencia",
-   "visitante": "Real Madrid",
-   "localId": 95,
-   "visitanteId": 86,
-   "escudoLocal": "https://crests.football-data.org/95.png",
-   "escudoVisitante": "https://crests.football-data.org/86.png",
-   "jornada": 12,
-   "estado": "IN_PLAY"
-  },
   {
    "id": "fd_564738",
    "codigo": "PD",
@@ -89,20 +33,6 @@
    "estado": "TIMED"
   },
   {
-   "id": "fd_564742",
-   "codigo": "PD",
-   "competicion": "LaLiga",
-   "inicio": 1794159000000,
-   "local": "Celta",
-   "visitante": "Levante",
-   "localId": 558,
-   "visitanteId": 88,
-   "escudoLocal": "https://crests.football-data.org/558.png",
-   "escudoVisitante": "https://crests.football-data.org/88.png",
-   "jornada": 12,
-   "estado": "TIMED"
-  },
-  {
    "id": "fd_564747",
    "codigo": "PD",
    "competicion": "LaLiga",
@@ -113,6 +43,20 @@
    "visitanteId": 82,
    "escudoLocal": "https://crests.football-data.org/94.png",
    "escudoVisitante": "https://crests.football-data.org/82.png",
+   "jornada": 12,
+   "estado": "TIMED"
+  },
+  {
+   "id": "fd_564742",
+   "codigo": "PD",
+   "competicion": "LaLiga",
+   "inicio": 1794159000000,
+   "local": "Celta",
+   "visitante": "Levante",
+   "localId": 558,
+   "visitanteId": 88,
+   "escudoLocal": "https://crests.football-data.org/558.png",
+   "escudoVisitante": "https://crests.football-data.org/88.png",
    "jornada": 12,
    "estado": "TIMED"
   },
