@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": 1794118743733,
+ "actualizado": 1794145153920,
  "fuente": "football-data.org",
  "fuenteWeb": "https://www.football-data.org",
  "partidos": [
@@ -16,7 +16,7 @@
    "escudoLocal": "https://crests.football-data.org/285.png",
    "escudoVisitante": "https://crests.football-data.org/90.png",
    "jornada": 12,
-   "estado": "TIMED"
+   "estado": "IN_PLAY"
   },
   {
    "id": "fd_564743",

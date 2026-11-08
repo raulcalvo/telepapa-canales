@@ -1,18 +1,9 @@
 {
  "version": 1,
- "actualizado": 1793993555646,
+ "actualizado": 1794145154470,
  "fuente": "F1 Calendar",
  "fuenteWeb": "https://www.f1calendar.com",
  "eventos": [
-  {
-   "id": "mt_motogp_2026_20_qualifying1",
-   "codigo": "MOTOGP",
-   "competicion": "MotoGP",
-   "inicio": 1794051600000,
-   "duracion": 45,
-   "titulo": "GP de Catar · Clasificación",
-   "provisional": false
-  },
   {
    "id": "mt_motogp_2026_20_sprint",
    "codigo": "MOTOGP",
