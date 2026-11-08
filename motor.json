@@ -1,27 +1,9 @@
 {
  "version": 1,
- "actualizado": 1794145154470,
+ "actualizado": 1794176143714,
  "fuente": "F1 Calendar",
  "fuenteWeb": "https://www.f1calendar.com",
  "eventos": [
-  {
-   "id": "mt_motogp_2026_20_sprint",
-   "codigo": "MOTOGP",
-   "competicion": "MotoGP",
-   "inicio": 1794067200000,
-   "duracion": 45,
-   "titulo": "GP de Catar · Sprint",
-   "provisional": false
-  },
-  {
-   "id": "mt_f1_2026_20_qualifying",
-   "codigo": "F1",
-   "competicion": "Fórmula 1",
-   "inicio": 1794074400000,
-   "duracion": 60,
-   "titulo": "GP de Brasil · Clasificación",
-   "provisional": false
-  },
   {
    "id": "mt_motogp_2026_20_race",
    "codigo": "MOTOGP",
