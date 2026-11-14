@@ -1,7 +1,22 @@
 {
  "version": 1,
- "actualizado": 1794599524106,
+ "actualizado": 1794638616235,
  "fuente": "football-data.org",
  "fuenteWeb": "https://www.football-data.org",
- "partidos": []
+ "partidos": [
+  {
+   "id": "fd_564748",
+   "codigo": "PD",
+   "competicion": "LaLiga",
+   "inicio": 1795204800000,
+   "local": "Athletic",
+   "visitante": "Espanyol",
+   "localId": 77,
+   "visitanteId": 80,
+   "escudoLocal": "https://crests.football-data.org/77.png",
+   "escudoVisitante": "https://crests.football-data.org/80.png",
+   "jornada": 13,
+   "estado": "TIMED"
+  }
+ ]
 }
