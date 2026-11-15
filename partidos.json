@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": 1794695707792,
+ "actualizado": 1794725333271,
  "fuente": "football-data.org",
  "fuenteWeb": "https://www.football-data.org",
  "partidos": [
@@ -15,6 +15,62 @@
    "visitanteId": 80,
    "escudoLocal": "https://crests.football-data.org/77.png",
    "escudoVisitante": "https://crests.football-data.org/80.png",
+   "jornada": 13,
+   "estado": "TIMED"
+  },
+  {
+   "id": "fd_564755",
+   "codigo": "PD",
+   "competicion": "LaLiga",
+   "inicio": 1795266000000,
+   "local": "Alavés",
+   "visitante": "Deportivo",
+   "localId": 263,
+   "visitanteId": 560,
+   "escudoLocal": "https://crests.football-data.org/263.png",
+   "escudoVisitante": "https://crests.football-data.org/560.png",
+   "jornada": 13,
+   "estado": "TIMED"
+  },
+  {
+   "id": "fd_564751",
+   "codigo": "PD",
+   "competicion": "LaLiga",
+   "inicio": 1795274100000,
+   "local": "Rayo Vallecano",
+   "visitante": "Valencia",
+   "localId": 87,
+   "visitanteId": 95,
+   "escudoLocal": "https://crests.football-data.org/87.png",
+   "escudoVisitante": "https://crests.football-data.org/95.png",
+   "jornada": 13,
+   "estado": "TIMED"
+  },
+  {
+   "id": "fd_564756",
+   "codigo": "PD",
+   "competicion": "LaLiga",
+   "inicio": 1795282200000,
+   "local": "Sevilla FC",
+   "visitante": "Real Betis",
+   "localId": 559,
+   "visitanteId": 90,
+   "escudoLocal": "https://crests.football-data.org/559.png",
+   "escudoVisitante": "https://crests.football-data.org/90.png",
+   "jornada": 13,
+   "estado": "TIMED"
+  },
+  {
+   "id": "fd_564754",
+   "codigo": "PD",
+   "competicion": "LaLiga",
+   "inicio": 1795291200000,
+   "local": "Real Madrid",
+   "visitante": "Celta",
+   "localId": 86,
+   "visitanteId": 558,
+   "escudoLocal": "https://crests.football-data.org/86.png",
+   "escudoVisitante": "https://crests.football-data.org/558.png",
    "jornada": 13,
    "estado": "TIMED"
   }
