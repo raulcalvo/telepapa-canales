@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": 1794769071817,
+ "actualizado": 1794811714752,
  "fuente": "football-data.org",
  "fuenteWeb": "https://www.football-data.org",
  "partidos": [
@@ -71,6 +71,62 @@
    "visitanteId": 558,
    "escudoLocal": "https://crests.football-data.org/86.png",
    "escudoVisitante": "https://crests.football-data.org/558.png",
+   "jornada": 13,
+   "estado": "TIMED"
+  },
+  {
+   "id": "fd_564749",
+   "codigo": "PD",
+   "competicion": "LaLiga",
+   "inicio": 1795352400000,
+   "local": "Barça",
+   "visitante": "Villarreal",
+   "localId": 81,
+   "visitanteId": 94,
+   "escudoLocal": "https://crests.football-data.org/81.png",
+   "escudoVisitante": "https://crests.football-data.org/94.png",
+   "jornada": 13,
+   "estado": "TIMED"
+  },
+  {
+   "id": "fd_564750",
+   "codigo": "PD",
+   "competicion": "LaLiga",
+   "inicio": 1795360500000,
+   "local": "Santander",
+   "visitante": "Real Sociedad",
+   "localId": 5335,
+   "visitanteId": 92,
+   "escudoLocal": "https://crests.football-data.org/5335.png",
+   "escudoVisitante": "https://crests.football-data.org/92.png",
+   "jornada": 13,
+   "estado": "TIMED"
+  },
+  {
+   "id": "fd_564752",
+   "codigo": "PD",
+   "competicion": "LaLiga",
+   "inicio": 1795368600000,
+   "local": "Osasuna",
+   "visitante": "Málaga",
+   "localId": 79,
+   "visitanteId": 84,
+   "escudoLocal": "https://crests.football-data.org/79.png",
+   "escudoVisitante": "https://crests.football-data.org/84.png",
+   "jornada": 13,
+   "estado": "TIMED"
+  },
+  {
+   "id": "fd_564753",
+   "codigo": "PD",
+   "competicion": "LaLiga",
+   "inicio": 1795377600000,
+   "local": "Getafe",
+   "visitante": "Atleti",
+   "localId": 82,
+   "visitanteId": 78,
+   "escudoLocal": "https://crests.football-data.org/82.png",
+   "escudoVisitante": "https://crests.football-data.org/78.png",
    "jornada": 13,
    "estado": "TIMED"
   }
