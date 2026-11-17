@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": 1794867576218,
+ "actualizado": 1794902872591,
  "fuente": "football-data.org",
  "fuenteWeb": "https://www.football-data.org",
  "partidos": [
@@ -127,6 +127,20 @@
    "visitanteId": 78,
    "escudoLocal": "https://crests.football-data.org/82.png",
    "escudoVisitante": "https://crests.football-data.org/78.png",
+   "jornada": 13,
+   "estado": "TIMED"
+  },
+  {
+   "id": "fd_564757",
+   "codigo": "PD",
+   "competicion": "LaLiga",
+   "inicio": 1795464000000,
+   "local": "Levante",
+   "visitante": "Elche",
+   "localId": 88,
+   "visitanteId": 285,
+   "escudoLocal": "https://crests.football-data.org/88.png",
+   "escudoVisitante": "https://crests.football-data.org/285.png",
    "jornada": 13,
    "estado": "TIMED"
   }
