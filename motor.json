@@ -1,18 +1,9 @@
 {
  "version": 1,
- "actualizado": 1794263435160,
+ "actualizado": 1795331159242,
  "fuente": "F1 Calendar",
  "fuenteWeb": "https://www.f1calendar.com",
  "eventos": [
-  {
-   "id": "mt_f1_2026_21_qualifying",
-   "codigo": "F1",
-   "competicion": "Fórmula 1",
-   "inicio": 1795233600000,
-   "duracion": 60,
-   "titulo": "GP de Las Vegas · Clasificación",
-   "provisional": false
-  },
   {
    "id": "mt_motogp_2026_21_qualifying1",
    "codigo": "MOTOGP",
