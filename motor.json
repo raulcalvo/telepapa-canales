@@ -1,18 +1,9 @@
 {
  "version": 1,
- "actualizado": 1795377038936,
+ "actualizado": 1795420427220,
  "fuente": "F1 Calendar",
  "fuenteWeb": "https://www.f1calendar.com",
  "eventos": [
-  {
-   "id": "mt_f1_2026_21_gp",
-   "codigo": "F1",
-   "competicion": "Fórmula 1",
-   "inicio": 1795320000000,
-   "duracion": 120,
-   "titulo": "GP de Las Vegas · Carrera",
-   "provisional": false
-  },
   {
    "id": "mt_motogp_2026_21_race",
    "codigo": "MOTOGP",
