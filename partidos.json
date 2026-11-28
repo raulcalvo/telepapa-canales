@@ -1,23 +1,9 @@
 {
  "version": 1,
- "actualizado": 1795814867043,
+ "actualizado": 1795853095040,
  "fuente": "football-data.org",
  "fuenteWeb": "https://www.football-data.org",
  "partidos": [
-  {
-   "id": "fd_564765",
-   "codigo": "PD",
-   "competicion": "LaLiga",
-   "inicio": 1795809600000,
-   "local": "Levante",
-   "visitante": "Santander",
-   "localId": 88,
-   "visitanteId": 5335,
-   "escudoLocal": "https://crests.football-data.org/88.png",
-   "escudoVisitante": "https://crests.football-data.org/5335.png",
-   "jornada": 14,
-   "estado": "IN_PLAY"
-  },
   {
    "id": "fd_564760",
    "codigo": "PD",
@@ -170,6 +156,20 @@
    "escudoLocal": "https://crests.football-data.org/81.png",
    "escudoVisitante": "https://crests.football-data.org/78.png",
    "jornada": 23,
+   "estado": "TIMED"
+  },
+  {
+   "id": "fd_564770",
+   "codigo": "PD",
+   "competicion": "LaLiga",
+   "inicio": 1796414400000,
+   "local": "Alavés",
+   "visitante": "Espanyol",
+   "localId": 263,
+   "visitanteId": 80,
+   "escudoLocal": "https://crests.football-data.org/263.png",
+   "escudoVisitante": "https://crests.football-data.org/80.png",
+   "jornada": 15,
    "estado": "TIMED"
   }
  ]
